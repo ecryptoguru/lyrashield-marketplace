@@ -1,3 +1,8 @@
+---
+name: lyrashield-ai
+description: Review LyraShield release-assurance evidence through an OAuth-first MCP connection.
+---
+
 # LyraShield AI review skill
 
 Use the LyraShield MCP connection to inspect release-assurance evidence, summarize current
