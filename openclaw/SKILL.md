@@ -1,5 +1,5 @@
 ---
-name: lyrashield-ai
+name: openclaw
 description: Review LyraShield release-assurance evidence through an OAuth-first MCP connection.
 ---
 
