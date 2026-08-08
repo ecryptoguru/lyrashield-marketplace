@@ -1,6 +1,6 @@
 {
   "name": "lyrashield",
-  "version": "0.1.0",
+  "version": "0.1.9",
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "generatedFiles": [
@@ -13,6 +13,8 @@
     ".codex-plugin/plugin.json",
     ".cursor-plugin/plugin.json",
     ".kiro-plugin/plugin.json",
+    ".mcp.json",
+    "skills",
     "zed-extension",
     "codebuff",
     "gemini-extension",
