@@ -3,7 +3,7 @@ import type { AgentDefinition } from "./types/agent-definition"
 const definition: AgentDefinition = {
   id: "lyrashield-review",
   version: "0.1.0",
-  publisher: "lyrashield-ai",
+  publisher: "lyrashield",
   displayName: "LyraShield Review",
   model: "anthropic/claude-sonnet-4.5",
   outputMode: "last_message",
