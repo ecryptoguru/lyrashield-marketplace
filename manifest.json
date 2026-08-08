@@ -1,0 +1,34 @@
+{
+  "name": "lyrashield",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "source": "@lyrashield/agent-plugin",
+  "generatedFiles": [
+    "README.md",
+    "CHANGELOG.md",
+    "plugin/plugin.json",
+    "plugin/mcp.json",
+    "plugin/skills",
+    ".claude-plugin/plugin.json",
+    ".codex-plugin/plugin.json",
+    ".cursor-plugin/plugin.json",
+    ".kiro-plugin/plugin.json",
+    "zed-extension",
+    "codebuff",
+    "gemini-extension",
+    "kiro-power",
+    "cline",
+    "kilo",
+    "openclaw",
+    "reviewer-pack",
+    "assets"
+  ],
+  "forbidden": [
+    "apps/web",
+    "apps/worker",
+    "apps/agent",
+    "packages/db",
+    ".env",
+    "credentials.json"
+  ]
+}

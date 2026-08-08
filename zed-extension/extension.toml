@@ -1,0 +1,9 @@
+id = "lyrashield-ai"
+name = "LyraShield AI"
+version = "0.1.0"
+schema_version = 1
+authors = ["LyraShield AI <support@lyrashieldai.com>"]
+description = "Evidence-backed release assurance through the LyraShield MCP server."
+repository = "https://github.com/ecryptoguru/lyrashieldai"
+
+[context_servers.lyrashield]
