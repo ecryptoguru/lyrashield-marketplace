@@ -2,7 +2,7 @@
   "name": "LyraShield AI",
   "purpose": "Evidence-backed release assurance through a hosted OAuth MCP connection.",
   "repository": "https://github.com/ecryptoguru/lyrashield-marketplace",
-  "icon": "assets/lyrashield-400.svg",
+  "icon": "https://raw.githubusercontent.com/ecryptoguru/lyrashield-marketplace/v0.1.0/assets/lyrashield-400.png",
   "license": "Apache-2.0",
   "transport": "streamable-http",
   "serverUrl": "https://app.lyrashieldai.com/api/mcp",
