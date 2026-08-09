@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.13
+
+- Republished Codebuff `lyrashield-review` as `0.1.1` with its read-only LyraShield MCP
+  server declaration; the prior public `0.1.0` listing had an empty MCP server map.
+
 ## 0.1.10
 
 - Declared the bundled skill in the OpenAI/Codex manifest using the current plugin format.
