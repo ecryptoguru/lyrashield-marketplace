@@ -1,9 +1,28 @@
 # Changelog
 
-## 0.1.13
+## Next
 
+- Flattened the portable Agent Plugin into the marketplace root, so conformant clients discover
+  its `plugin.json`, OAuth-first `mcp.json`, and `skills/` together.
+- Removed the mandatory API-key header from the Claude Code MCP config so fresh connections reach
+  the hosted OAuth flow, and restored the complete Apache-2.0 license plus the OpenClaw MIT-0 file.
+- Bundled LyraShield workspace dependencies into the published MCP package so a clean `npx`
+  installation does not try to resolve private workspace packages from npm.
+- Clarified that repository auto-detection is local-stdio-only; hosted MCP clients now require an
+  explicit repository or target identifier instead of inspecting the server checkout.
 - Republished Codebuff `lyrashield-review` as `0.1.1` with its read-only LyraShield MCP
   server declaration; the prior public `0.1.0` listing had an empty MCP server map.
+- Added a narrow MIT-0 grant for the OpenClaw skill directory so the community ClawHub listing can
+  publish its `v1.0.1` metadata correction without changing the Apache-2.0 license of the broader
+  marketplace bundle.
+
+## 0.1.12
+
+- Declared Zed's required Node process capability in the extension manifest.
+
+## 0.1.11
+
+- Corrected API-key settings links in the Cline and Zed installation guides.
 
 ## 0.1.10
 
