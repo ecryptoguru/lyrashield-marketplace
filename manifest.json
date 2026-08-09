@@ -14,6 +14,7 @@
     ".cursor-plugin/plugin.json",
     ".kiro-plugin/plugin.json",
     ".mcp.json",
+    ".mcp.kiro.json",
     "skills",
     "zed-extension",
     "codebuff",
