@@ -1,7 +1,35 @@
 # Cline MCP Install — LyraShield AI
 
 1. Open Cline and click **MCP Servers** → **Configure MCP Servers**.
-2. Add the LyraShield server to your `cline_mcp_settings.json`:
+2. Authenticate with OAuth first (no API key needed for interactive use):
+
+```bash
+npx @lyrashield/agent-plugin lyrashield login --oauth
+```
+
+3. Add the LyraShield server to your `cline_mcp_settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "lyrashield": {
+      "type": "streamableHttp",
+      "url": "https://app.lyrashieldai.com/api/mcp",
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
+```
+
+4. Save the file. Cline will discover the tools automatically and use the
+   credential stored by `lyrashield login --oauth`.
+
+### CI / non-interactive fallback (API key)
+
+If you cannot run the OAuth flow (e.g. headless CI), add an `Authorization`
+header with a dashboard API key from
+https://app.lyrashieldai.com/dashboard/settings:
 
 ```json
 {
@@ -18,9 +46,6 @@
   }
 }
 ```
-
-3. Replace `<YOUR_LYRASHIELD_API_KEY>` with your API key from https://app.lyrashieldai.com/dashboard/settings.
-4. Save the file. Cline will discover the tools automatically.
 
 For the full Cline MCP Marketplace listing, open an issue at https://github.com/cline/mcp-marketplace/issues/new?template=mcp-server-submission.yml with:
 

@@ -18,6 +18,7 @@
   ],
   "mcpServers": {
     "lyrashield": {
+      "type": "streamable-http",
       "url": "https://app.lyrashieldai.com/api/mcp"
     }
   }
