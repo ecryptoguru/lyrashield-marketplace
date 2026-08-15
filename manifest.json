@@ -38,5 +38,11 @@
     "packages/db",
     ".env",
     "credentials.json"
-  ]
+  ],
+  "artifactVersions": {
+    "zed-extension": "0.1.1",
+    "gemini-extension": "0.1.0",
+    "codebuff": "0.1.2",
+    "openclaw": "0.1.0"
+  }
 }

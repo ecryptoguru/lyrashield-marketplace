@@ -17,4 +17,4 @@ jobs:
         with:
           node-version: 24
       - run: node scripts/validate.mjs
-      - run: git diff --check
+      - run: git diff --check ${{ github.event.pull_request.base.sha || 'HEAD~1' }} HEAD
