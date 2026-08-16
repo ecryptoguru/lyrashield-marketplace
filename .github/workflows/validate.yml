@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          # Full history so the PR base SHA is always present for git diff --check;
+          # the default shallow fetch (depth 1) omits it and fails with
+          # "fatal: bad object <base.sha>" on any PR whose base isn't the tip.
+          fetch-depth: 0
       - uses: actions/setup-node@v5
         with:
           node-version: 24
