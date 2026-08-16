@@ -13,12 +13,21 @@
   "mcpServers": {
     "lyrashield": {
       "command": "npx",
-      "args": ["-y", "@lyrashield/mcp"],
+      "args": [
+        "-y",
+        "@lyrashield/mcp"
+      ],
       "env": {
         "LYRASHIELD_API_URL": "https://app.lyrashieldai.com"
       }
     }
   },
   "contextFileName": "GEMINI.md",
-  "excludeTools": ["propose_fix", "execute_fix"]
+  "excludeTools": [
+    "lyrashield_scan_target",
+    "lyrashield_create_report",
+    "lyrashield_run_pr_scan",
+    "lyrashield_record_fix_proposal",
+    "lyrashield_verify_fix"
+  ]
 }
