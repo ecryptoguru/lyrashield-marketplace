@@ -70,6 +70,40 @@ for (const [name, config] of Object.entries({ portableMcp, claudeMcp })) {
   assert(!("headers" in server), `${name} must allow the hosted OAuth flow to authenticate`)
 }
 
+// The Gemini extension promises "read-only by default, approval-gated writes"
+// via excludeTools. That guarantee only holds if the excluded names are REAL
+// tools. Source of truth for the mutating set: the MCP server registry in the
+// web monorepo at packages/mcp/src/tools.ts (createAllTools, mutating: true).
+// If a tool is added there with mutating: true, add it here (and to both
+// gemini-extension.json copies) in the same release.
+const GEMINI_MUTATING_TOOLS = [
+  "lyrashield_scan_target",
+  "lyrashield_create_report",
+  "lyrashield_run_pr_scan",
+  "lyrashield_record_fix_proposal",
+  "lyrashield_verify_fix",
+]
+for (const relative of ["gemini-extension.json", "gemini-extension/gemini-extension.json"]) {
+  const gemini = await readJson(relative)
+  const excluded = gemini.excludeTools
+  assert(
+    Array.isArray(excluded) && excluded.length === GEMINI_MUTATING_TOOLS.length,
+    `${relative} excludeTools must list every mutating MCP tool (${GEMINI_MUTATING_TOOLS.length} expected)`
+  )
+  for (const tool of GEMINI_MUTATING_TOOLS) {
+    assert(
+      excluded.includes(tool),
+      `${relative} excludeTools is missing mutating tool '${tool}' — the read-only-by-default guarantee is NOT enforced while it is absent`
+    )
+  }
+  for (const tool of excluded) {
+    assert(
+      GEMINI_MUTATING_TOOLS.includes(tool),
+      `${relative} excludeTools contains '${tool}', which is not in the known mutating set — it matches no real MCP tool and silently excludes nothing (the previous 'propose_fix'/'execute_fix' regression)`
+    )
+  }
+}
+
 // The Cursor shim inlines the MCP server declaration directly in its plugin.json
 // rather than referencing mcp.json. Apply the same URL/transport/no-headers
 // invariants as the root portable and Claude configs.
