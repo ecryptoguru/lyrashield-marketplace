@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.17
+
+- Bumped the exported plugin to `0.1.17` and regenerated all client shims.
+- Fixed the Kilo MCP YAML placeholder from `ls_` to `lsk_` to match the documented API key prefix.
+- Refreshed the bundled LyraShield skill post-fix verification guidance and updated the Zed
+  extension copy to reflect bounded, evidence-state review language.
+
 ## 0.1.16
 
 - Hardened the marketplace validator to enforce `manifest.forbidden` paths and scan tracked
