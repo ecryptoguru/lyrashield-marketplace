@@ -14,9 +14,7 @@ const definition: AgentDefinition = {
       args: ["-y", "@lyrashield/mcp"],
       env: {
         LYRASHIELD_API_URL: "https://app.lyrashieldai.com",
-        ...(process.env.LYRASHIELD_API_KEY
-          ? { LYRASHIELD_API_KEY: process.env.LYRASHIELD_API_KEY }
-          : {}),
+        LYRASHIELD_API_KEY: process.env.LYRASHIELD_API_KEY ?? "",
       },
     },
   },

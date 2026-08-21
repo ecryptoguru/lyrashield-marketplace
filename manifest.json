@@ -31,6 +31,19 @@
     "scripts",
     ".github"
   ],
+  "artifactVersions": {
+    "gemini": "0.1.0",
+    "zed": "0.1.1",
+    "codebuff": "0.1.2",
+    "openclaw": "0.1.0"
+  },
+  "mutatingTools": [
+    "lyrashield_scan_target",
+    "lyrashield_create_report",
+    "lyrashield_run_pr_scan",
+    "lyrashield_record_fix_proposal",
+    "lyrashield_verify_fix"
+  ],
   "forbidden": [
     "apps/web",
     "apps/worker",
@@ -38,11 +51,5 @@
     "packages/db",
     ".env",
     "credentials.json"
-  ],
-  "artifactVersions": {
-    "zed-extension": "0.1.1",
-    "gemini-extension": "0.1.0",
-    "codebuff": "0.1.2",
-    "openclaw": "0.1.0"
-  }
+  ]
 }
