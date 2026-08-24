@@ -39,7 +39,8 @@ for (const forbidden of manifest.forbidden) {
 }
 // Nested forbidden: reject .env*, credential files, private keys, PEM/cert stores,
 // provider tokens, or any file whose path contains a forbidden segment.
-const NESTED_FORBIDDEN_BASENAME = /^\.env(\..*)?$|^credentials(\.json)?$|\.pem$|\.key$|\.p12$|\.pfx$|\.crt$|\.cert$/i
+const NESTED_FORBIDDEN_BASENAME =
+  /^\.env(\..*)?$|^credentials(\.json)?$|\.pem$|\.key$|\.p12$|\.pfx$|\.crt$|\.cert$/i
 const NESTED_FORBIDDEN_SEGMENTS = manifest.forbidden.map((p) => p.replace(/^\//, "").split("/")[0])
 async function scanForbidden(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
@@ -67,7 +68,8 @@ await scanForbidden(root)
 const KEY_PATTERN = /lsk_[A-Za-z0-9]{8,}/
 const PRIVATE_KEY_PATTERN = /-----BEGIN (?:RSA )?PRIVATE KEY-----/
 const PEM_PATTERN = /-----BEGIN (?:CERTIFICATE|PRIVATE KEY|PUBLIC KEY)-----/
-const PROVIDER_TOKEN_PATTERN = /(?:ghp_|gho_|github_pat_|sk-[A-Za-z0-9]{20,}|sk_live_[A-Za-z0-9]{20,})/
+const PROVIDER_TOKEN_PATTERN =
+  /(?:ghp_|gho_|github_pat_|sk-[A-Za-z0-9]{20,}|sk_live_[A-Za-z0-9]{20,})/
 const PLACEHOLDER_PATTERN = /lsk_[….]|<YOUR_/
 async function scanSecrets(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
@@ -80,14 +82,29 @@ async function scanSecrets(dir) {
       await scanSecrets(full)
     } else {
       const ext = path.extname(entry.name).toLowerCase()
-      const textish = [".md", ".json", ".ts", ".js", ".mjs", ".yml", ".yaml", ".toml", ".txt", ""].includes(ext)
+      const textish = [
+        ".md",
+        ".json",
+        ".ts",
+        ".js",
+        ".mjs",
+        ".yml",
+        ".yaml",
+        ".toml",
+        ".txt",
+        "",
+      ].includes(ext)
       if (!textish) continue
       const content = await readFile(full, "utf8")
-      for (const line of content.split("\n")) {
+      for (const [index, line] of content.split("\n").entries()) {
         if (PLACEHOLDER_PATTERN.test(line)) continue
-        if (KEY_PATTERN.test(line)) throw new Error(`real LyraShield API key leaked in ${path.relative(root, full)}: ${line.trim()}`)
-        if (PRIVATE_KEY_PATTERN.test(line) || PEM_PATTERN.test(line)) throw new Error(`private key/PEM leaked in ${path.relative(root, full)}: ${line.trim()}`)
-        if (PROVIDER_TOKEN_PATTERN.test(line)) throw new Error(`provider token leaked in ${path.relative(root, full)}: ${line.trim()}`)
+        const location = `${path.relative(root, full)}:${index + 1}`
+        if (KEY_PATTERN.test(line))
+          throw new Error(`real LyraShield API key detected at ${location}`)
+        if (PRIVATE_KEY_PATTERN.test(line) || PEM_PATTERN.test(line))
+          throw new Error(`private key/PEM detected at ${location}`)
+        if (PROVIDER_TOKEN_PATTERN.test(line))
+          throw new Error(`provider token detected at ${location}`)
       }
     }
   }
@@ -107,9 +124,18 @@ for (const [name, config] of Object.entries({ portableMcp, claudeMcp })) {
 const cursorPlugin = await readJson(".cursor-plugin/plugin.json")
 const cursorServer = cursorPlugin.mcpServers?.lyrashield
 assert(cursorServer, ".cursor-plugin/plugin.json must declare the lyrashield MCP server")
-assert(cursorServer.type === "streamable-http", ".cursor-plugin/plugin.json lyrashield server must use Streamable HTTP")
-assert(cursorServer.url === "https://app.lyrashieldai.com/api/mcp", ".cursor-plugin/plugin.json lyrashield server has the wrong MCP URL")
-assert(!("headers" in cursorServer), ".cursor-plugin/plugin.json must allow the hosted OAuth flow to authenticate")
+assert(
+  cursorServer.type === "streamable-http",
+  ".cursor-plugin/plugin.json lyrashield server must use Streamable HTTP"
+)
+assert(
+  cursorServer.url === "https://app.lyrashieldai.com/api/mcp",
+  ".cursor-plugin/plugin.json lyrashield server has the wrong MCP URL"
+)
+assert(
+  !("headers" in cursorServer),
+  ".cursor-plugin/plugin.json must allow the hosted OAuth flow to authenticate"
+)
 
 const license = await readFile(path.join(root, "LICENSE"), "utf8")
 assert(
