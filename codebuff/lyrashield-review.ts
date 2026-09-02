@@ -1,5 +1,7 @@
 import type { AgentDefinition } from "./types/agent-definition"
 
+const apiKey = process.env.LYRASHIELD_API_KEY?.trim()
+
 const definition: AgentDefinition = {
   id: "lyrashield-review",
   version: "0.1.18",
@@ -11,10 +13,8 @@ const definition: AgentDefinition = {
   mcpServers: {
     lyrashield: {
       command: "npx",
-      args: ["-y", "@lyrashield/mcp@0.2.2"],
-      env: {
-        LYRASHIELD_API_KEY: process.env.LYRASHIELD_API_KEY ?? "",
-      },
+      args: ["-y", "@lyrashield/mcp@0.2.3"],
+      env: apiKey ? { LYRASHIELD_API_KEY: apiKey } : {},
     },
   },
   toolNames: ["read_files", "code_search", "end_turn"],
