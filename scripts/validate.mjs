@@ -319,6 +319,10 @@ assert(
   !codebuff.includes("run_terminal_command"),
   "Read-only Codebuff agent must not run shell commands"
 )
+assert(
+  codebuff.includes("env: apiKey ? { LYRASHIELD_API_KEY: apiKey } : {}"),
+  "Codebuff must omit an absent API key so stored OAuth remains available"
+)
 for (const file of [
   "skills/lyrashield/SKILL.md",
   "openclaw/SKILL.md",
