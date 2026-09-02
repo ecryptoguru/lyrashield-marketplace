@@ -9,4 +9,4 @@ that local credential store. The launcher removes inherited URL and credential o
 preserving the stored OAuth issuer. An optional explicit extension API key uses
 `https://app.lyrashieldai.com` only.
 
-Published MCP 0.2.2 does not refresh expired OAuth tokens; log in again when the session expires.
+Published MCP 0.2.3 refreshes expired stored OAuth credentials before the stdio server starts.
