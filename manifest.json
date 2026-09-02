@@ -18,6 +18,7 @@
     ".mcp.json",
     ".mcp.kiro.json",
     "gemini-extension.json",
+    "mcp-env.cjs",
     "GEMINI.md",
     "LICENSE",
     "zed-extension",
