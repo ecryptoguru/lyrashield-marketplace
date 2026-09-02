@@ -6,6 +6,7 @@
   "generatedFiles": [
     "README.md",
     "CHANGELOG.md",
+    "CLIENT-CONTRACTS.md",
     "plugin.json",
     "mcp.json",
     "skills",
@@ -32,10 +33,10 @@
     ".github"
   ],
   "artifactVersions": {
-    "gemini": "0.1.0",
-    "zed": "0.1.1",
-    "codebuff": "0.1.2",
-    "openclaw": "0.1.0"
+    "gemini": "0.1.18",
+    "zed": "0.1.18",
+    "codebuff": "0.1.18",
+    "openclaw": "0.1.18"
   },
   "mutatingTools": [
     "lyrashield_scan_target",
