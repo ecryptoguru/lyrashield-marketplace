@@ -233,7 +233,7 @@ assert(
   "root gemini-extension.json excludeTools must equal the manifest-recorded mutating tool set"
 )
 
-const expectedPackage = "@lyrashield/mcp@0.2.3"
+const expectedPackage = "@lyrashield/mcp@0.2.4"
 for (const file of [
   ".mcp.kiro.json",
   "gemini-extension.json",
@@ -249,7 +249,7 @@ for (const file of [
   )
   if (file.endsWith(".rs")) {
     assert(
-      text.includes('const PACKAGE_VERSION: &str = "0.2.3";'),
+      text.includes('const PACKAGE_VERSION: &str = "0.2.4";'),
       "Zed must pin the published MCP version"
     )
     assert(!text.includes("npm_package_latest_version"), "Zed must not install a floating release")
@@ -311,7 +311,10 @@ for (const setting of [undefined, "", "  ", " demo-credential "]) {
     )
   } else {
     assert(!("LYRASHIELD_API_KEY" in env), "Empty credentials must not block stored OAuth")
-    assert(!("LYRASHIELD_API_URL" in env), "Stored OAuth must retain its stored issuer")
+    assert(
+      env.LYRASHIELD_API_URL === "http://untrusted.invalid",
+      "Stored OAuth must preserve an explicit API URL override"
+    )
   }
 }
 const codebuff = await readFile(path.join(root, "codebuff/lyrashield-review.ts"), "utf8")
