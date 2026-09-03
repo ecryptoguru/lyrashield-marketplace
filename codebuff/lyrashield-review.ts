@@ -13,7 +13,7 @@ const definition: AgentDefinition = {
   mcpServers: {
     lyrashield: {
       command: "npx",
-      args: ["-y", "@lyrashield/mcp@0.2.3"],
+      args: ["-y", "@lyrashield/mcp@0.2.4"],
       env: apiKey ? { LYRASHIELD_API_KEY: apiKey } : {},
     },
   },
