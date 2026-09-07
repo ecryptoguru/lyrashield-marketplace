@@ -1,5 +1,31 @@
 # Changelog
 
+## 0.1.24
+
+- Package Codex under a dedicated marketplace root using its native `streamable-http` MCP schema.
+- Register and install Codex through `codex plugin` so desktop discovery is explicit.
+- Use Cline's resolver-backed CLI settings path and document its override.
+- Clarify that OAuth refresh uses the stored issuer before API URL overrides apply.
+
+## 0.1.23
+
+- Give Codex its documented direct-map MCP descriptor instead of the portable Agent Plugins envelope.
+- Validate the pristine generated tree before the secret scanner writes its SARIF report.
+- Pin MCP 0.2.5 so stdio logs cannot corrupt JSON-RPC stdout.
+
+## 0.1.21
+
+- Make marketplace export ordering identical across macOS and Linux.
+
+## 0.1.20
+
+- Validate exact export hashes inside the marketplace Git repository while excluding repository metadata.
+
+## 0.1.19
+
+- Add deterministic export provenance with exact source commit, generator version, schema version, file hashes, and executable modes.
+- Keep published CLI and Agent Plugin packages self-contained by bundling private workspace code.
+
 ## 0.1.18 distribution corrections
 
 - Pin the published MCP 0.2.4 package and preserve credential-store OAuth refresh with API URL overrides.

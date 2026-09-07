@@ -1,4 +1,5 @@
-import { access, readFile, readdir } from "node:fs/promises"
+import { access, lstat, readFile, readdir } from "node:fs/promises"
+import { createHash } from "node:crypto"
 import { existsSync } from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
@@ -24,10 +25,61 @@ function assert(condition, message) {
 }
 
 const manifest = await readJson("manifest.json")
+assert(manifest.manifestSchemaVersion === "marketplace-export/2", "unsupported manifest schema")
+assert(
+  typeof manifest.sourceCommit === "string" && /^[a-f0-9]{40}$/i.test(manifest.sourceCommit),
+  "manifest.sourceCommit must be a commit SHA"
+)
+assert(
+  manifest.publication?.status === "unpublished" ||
+    manifest.publication?.status === "release-candidate",
+  "manifest.publication.status is invalid"
+)
 assert(Array.isArray(manifest.generatedFiles), "manifest.generatedFiles must be an array")
 for (const relative of manifest.generatedFiles) {
   assert(await exists(relative), `missing generated artifact: ${relative}`)
 }
+
+async function exportedFiles(dir = root) {
+  const files = []
+  for (const entry of (await readdir(dir, { withFileTypes: true })).sort((a, b) =>
+    a.name < b.name ? -1 : a.name > b.name ? 1 : 0
+  )) {
+    if (dir === root && entry.name === ".git") continue
+    const full = path.join(dir, entry.name)
+    const relative = path.relative(root, full).split(path.sep).join("/")
+    const stat = await lstat(full)
+    if (stat.isSymbolicLink()) throw new Error(`symlink present in export: ${relative}`)
+    if (stat.isDirectory()) files.push(...(await exportedFiles(full)))
+    else if (stat.isFile() && relative !== "manifest.json") {
+      files.push({
+        path: relative,
+        sha256: createHash("sha256")
+          .update(await readFile(full))
+          .digest("hex"),
+        mode: stat.mode & 0o777,
+      })
+    } else if (!stat.isFile()) throw new Error(`unsupported entry in export: ${relative}`)
+  }
+  return files
+}
+
+assert(Array.isArray(manifest.files), "manifest.files must be an array")
+const listedFiles = manifest.files
+assert(
+  listedFiles.every(
+    (file) =>
+      typeof file?.path === "string" &&
+      /^[a-f0-9]{64}$/i.test(file.sha256) &&
+      Number.isInteger(file.mode)
+  ),
+  "manifest.files contains an invalid entry"
+)
+const actualFiles = await exportedFiles()
+assert(
+  JSON.stringify(listedFiles) === JSON.stringify(actualFiles),
+  "export file set or hash differs from manifest"
+)
 
 assert(!(await exists("plugin")), "portable plugin artifacts must live at the repository root")
 
@@ -119,6 +171,43 @@ for (const [name, config] of Object.entries({ portableMcp, claudeMcp })) {
   assert(server?.url === "https://app.lyrashieldai.com/api/mcp", `${name} has the wrong MCP URL`)
   assert(!("headers" in server), `${name} must allow the hosted OAuth flow to authenticate`)
 }
+
+const codexPlugin = await readJson(".codex-plugin/plugin.json")
+const codexMcp = await readJson(".mcp.codex.json")
+assert(
+  codexPlugin.mcpServers === "./.mcp.codex.json",
+  ".codex-plugin/plugin.json must reference the Codex-specific MCP descriptor"
+)
+assert(
+  codexMcp.lyrashield?.url === "https://app.lyrashieldai.com/api/mcp",
+  ".mcp.codex.json must contain a direct LyraShield server map"
+)
+assert(!("mcpServers" in codexMcp), ".mcp.codex.json must not use the Agent Plugins envelope")
+
+const codexMarketplace = await readJson(".agents/plugins/marketplace.json")
+const codexMarketplaceEntry = codexMarketplace.plugins?.find(
+  (plugin) => plugin.name === "lyrashield"
+)
+assert(
+  codexMarketplaceEntry?.source?.path === "./codex-plugin",
+  "Codex marketplace must install the dedicated Codex plugin root"
+)
+assert(
+  codexMarketplaceEntry?.policy?.installation === "AVAILABLE" &&
+    codexMarketplaceEntry?.policy?.authentication === "ON_INSTALL",
+  "Codex marketplace install policy is invalid"
+)
+const installedCodexManifest = await readJson("codex-plugin/.codex-plugin/plugin.json")
+const installedCodexMcp = await readJson("codex-plugin/.mcp.json")
+assert(
+  installedCodexManifest.mcpServers === "./.mcp.json",
+  "installed Codex manifest must reference its native MCP descriptor"
+)
+assert(
+  installedCodexMcp.lyrashield?.type === "streamable-http" &&
+    installedCodexMcp.lyrashield?.url === "https://app.lyrashieldai.com/api/mcp",
+  "installed Codex MCP descriptor must use the native streamable-http transport"
+)
 
 // Cursor shim inlines MCP config — same invariants as root configs.
 const cursorPlugin = await readJson(".cursor-plugin/plugin.json")
@@ -231,7 +320,7 @@ assert(
   "root gemini-extension.json excludeTools must equal the manifest-recorded mutating tool set"
 )
 
-const expectedPackage = "@lyrashield/mcp@0.2.4"
+const expectedPackage = "@lyrashield/mcp@0.2.5"
 for (const file of [
   ".mcp.kiro.json",
   "gemini-extension.json",
@@ -247,7 +336,7 @@ for (const file of [
   )
   if (file.endsWith(".rs")) {
     assert(
-      text.includes('const PACKAGE_VERSION: &str = "0.2.4";'),
+      text.includes('const PACKAGE_VERSION: &str = "0.2.5";'),
       "Zed must pin the published MCP version"
     )
     assert(!text.includes("npm_package_latest_version"), "Zed must not install a floating release")

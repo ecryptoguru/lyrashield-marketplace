@@ -1,8 +1,310 @@
 {
   "name": "lyrashield",
-  "version": "0.1.18",
+  "version": "0.1.24",
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
+  "manifestSchemaVersion": "marketplace-export/2",
+  "sourceCommit": "bf28c25a85ef1a49e33f7fba7dc1fa4f0134dfb8",
+  "generator": {
+    "package": "@lyrashield/agent-plugin",
+    "version": "0.1.24"
+  },
+  "publication": {
+    "status": "release-candidate",
+    "sourceClean": true
+  },
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "adb411de048a766efc62ee864143186d501ae1fa2a38d00bd8ad815225644d5d",
+      "mode": 420
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "sha256": "b7e9f4d59605b0a1feb96a4b34ad9a2460503d11371e561f701c486360b4537f",
+      "mode": 420
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "1e54d9a53f178df6e37abac9aa6a2a409ad1acf54d1d8771cc7066a124a73e64",
+      "mode": 420
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "0b50538a2beac1626277128eb685c7039ea4d8b75a652c2f0ebcdada58244009",
+      "mode": 420
+    },
+    {
+      "path": ".cursor-plugin/plugin.json",
+      "sha256": "53eca0b08621af2b3cd8379f7adfc9f223c17125dc1076794b8161a78b8d7dd9",
+      "mode": 420
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "35a41002056a11e97511b06ab518ee28a4b8e2e1eba6d8180544af454a2dffd1",
+      "mode": 420
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "f4d075b01b4652eb11afa568f7dfa5a2b215ef913492b817e2f263705cf2efba",
+      "mode": 420
+    },
+    {
+      "path": ".kiro-plugin/plugin.json",
+      "sha256": "12dc88fdf14596f806853eec67cfd6b14f63510ff57f2c0b27233b14f120faa4",
+      "mode": 420
+    },
+    {
+      "path": ".mcp.codex.json",
+      "sha256": "38776f59f55e7b0b2b61e8150ad70d840356737ab2bc299cf7600ba4074bf67b",
+      "mode": 420
+    },
+    {
+      "path": ".mcp.json",
+      "sha256": "aff25ae3584d2a614563f17adad93e718fe50596bbd3389e83c372469b115af4",
+      "mode": 420
+    },
+    {
+      "path": ".mcp.kiro.json",
+      "sha256": "ce5e9e968b0e5be8040ae98ee08645a40aff34768eaf7c1b04d8f233b4d8a840",
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "2504afc89a9751a2b5c26b622cacabff9828238a32305fab222b3b16a19e466b",
+      "mode": 420
+    },
+    {
+      "path": "CLIENT-CONTRACTS.md",
+      "sha256": "c99c6ed7cae6b05b52ac8db7c1c73ac9bc0c9b6e97307eb20cb9b6894a3a54c9",
+      "mode": 420
+    },
+    {
+      "path": "GEMINI.md",
+      "sha256": "58202b59bc3a9eb0b0db188569b1caa8f55b4a78f573f2fa4f1b0c3a260b86bb",
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "sha256": "1800b954d6cac40e1215b0e6cbdda973bd3838868d9131a6d19607fbf52bdc0f",
+      "mode": 420
+    },
+    {
+      "path": "assets/lyrashield-400.png",
+      "sha256": "1b4ab5b86aa57ed55e3a44cb9252ed4276b4a01f70b9a18603d4629ab39f32c2",
+      "mode": 420
+    },
+    {
+      "path": "assets/lyrashield-400.svg",
+      "sha256": "9b61b62105577fb8d5cf47f9d7b3e52329cca45258b4b2f50811625e4c5a1ca6",
+      "mode": 420
+    },
+    {
+      "path": "cline/README.md",
+      "sha256": "ba254150f6b470e839cdaab603fc15aa599b4baa8a12e2516176091226c82a4b",
+      "mode": 420
+    },
+    {
+      "path": "cline/llms-install.md",
+      "sha256": "0b1322492ce51de16f6b1587f7a5fe08fe3bc6c982273b9d2c36bfcdbd654663",
+      "mode": 420
+    },
+    {
+      "path": "cline/mcp.json",
+      "sha256": "bd24253670c516c4d2a72fd5a45138c8c7fed41d810ae17b58e05ee7c68a6a07",
+      "mode": 420
+    },
+    {
+      "path": "cline/submission.json",
+      "sha256": "78647a426a7a8f4af701b6063dd99cb767315d8af4169b40e3897c037c5331da",
+      "mode": 420
+    },
+    {
+      "path": "codebuff/README.md",
+      "sha256": "fc338cee70778f0e857af1f66a8990a8bedb9d4b6218b604cafce1c2be891bda",
+      "mode": 420
+    },
+    {
+      "path": "codebuff/lyrashield-review.ts",
+      "sha256": "887ad6435407e821339245dd9e6e52c946b8f7419b1ebdcb52d290f876f44032",
+      "mode": 420
+    },
+    {
+      "path": "codebuff/types/agent-definition.ts",
+      "sha256": "57c3bd0e1105c17da4cc3d68e652729a221b42b294f7d40ce2974dc5ce6b2d93",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/.codex-plugin/plugin.json",
+      "sha256": "70d864a5667b4fc33c4495455a76bca6e7ddf2961a715772d6c5e663de1c7135",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/.mcp.json",
+      "sha256": "60d9e70ae3e6942a1d70ea743f649f864998739c50927a7bbbec60644ac8cbaa",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/skills/lyrashield/SKILL.md",
+      "sha256": "5570c52b08d01ab92e10c99a60e74a853e565ed96e3ae468c5d0d72deaa3fe3d",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/GEMINI.md",
+      "sha256": "58202b59bc3a9eb0b0db188569b1caa8f55b4a78f573f2fa4f1b0c3a260b86bb",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/README.md",
+      "sha256": "3e7f2a05cf74a9b9b8ca99b40ebf294f0e82e01eba1f8436228b6d76c5261d67",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/gemini-extension.json",
+      "sha256": "ba726f11483d80f5f18e91e5f0b4004c8fc40485e34798ae6d201c03d8975fc1",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/mcp-env.cjs",
+      "sha256": "daf67546f358ba09267b233f761c8809f92e0523c58dd659cad519812a2268e3",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension.json",
+      "sha256": "ba726f11483d80f5f18e91e5f0b4004c8fc40485e34798ae6d201c03d8975fc1",
+      "mode": 420
+    },
+    {
+      "path": "kilo/README.md",
+      "sha256": "3968eb799888394d5964135c9a7e314807c41f7ddf11e3bc037e536d821cbcc5",
+      "mode": 420
+    },
+    {
+      "path": "kilo/marketplace.json",
+      "sha256": "bc34ac4348112aa2fec28af980c5576136119741811c8015fa3592fb3f8d8b40",
+      "mode": 420
+    },
+    {
+      "path": "kilo/mcps/lyrashield/MCP.yaml",
+      "sha256": "790484778f1cef511167e8cc6e596e2d62facea8d8174274e3f77f6b0d6b44ed",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/POWER.md",
+      "sha256": "2f0152bbdb308d9347339788b61899c0773041609354b9ab70b1c638e1d95bbf",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/README.md",
+      "sha256": "2e4a99dfca1d99fe3cf265d2499e96bc9774285bc41e50ea5c79d149aa57d921",
+      "mode": 420
+    },
+    {
+      "path": "mcp-env.cjs",
+      "sha256": "daf67546f358ba09267b233f761c8809f92e0523c58dd659cad519812a2268e3",
+      "mode": 420
+    },
+    {
+      "path": "mcp.json",
+      "sha256": "aff25ae3584d2a614563f17adad93e718fe50596bbd3389e83c372469b115af4",
+      "mode": 420
+    },
+    {
+      "path": "openclaw/.clawhubignore",
+      "sha256": "a086f016b358f5a233510e5c8adec08607a0bc2c46e7b532e7e6d246fdd36108",
+      "mode": 420
+    },
+    {
+      "path": "openclaw/LICENSE",
+      "sha256": "e9095858a093bb45c55e9202c4bf3d7555468ac37b73d66db50b35160ea5a12e",
+      "mode": 420
+    },
+    {
+      "path": "openclaw/README.md",
+      "sha256": "d7c2770f502ad990e4ceeef47cd175ab3b415e952ab4e4c3b2f383443dbb510d",
+      "mode": 420
+    },
+    {
+      "path": "openclaw/SKILL.md",
+      "sha256": "232e0248248c68b9099c5a4bfb3f4ff36747191110071b592c99257b3cead6cc",
+      "mode": 420
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "44006595699b563da9dcd4fc3d635c4651b2f19a97c34fcc2bfe030b1399e901",
+      "mode": 420
+    },
+    {
+      "path": "reviewer-pack/README.md",
+      "sha256": "937f711a6cf3d264fbb84cbcada65091ef1fb020005716e01f024b7b60ff609d",
+      "mode": 420
+    },
+    {
+      "path": "reviewer-pack/workflows.json",
+      "sha256": "7ddd219cb41c7e87fca127a4a50a26427b771d34c6b2d5993df4f8b4f8b390f1",
+      "mode": 420
+    },
+    {
+      "path": "scripts/validate.mjs",
+      "sha256": "9efffde44f306c0a0c16e9e949f42c97d9a2a2d31cb8954c6a10e8d0f8fbabb4",
+      "mode": 420
+    },
+    {
+      "path": "skills/lyrashield/SKILL.md",
+      "sha256": "5570c52b08d01ab92e10c99a60e74a853e565ed96e3ae468c5d0d72deaa3fe3d",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/.gitignore",
+      "sha256": "44c92e3a70ad3307b7056871c2bdb096d8bfa9373f5bf06a79bb6324a20ff2fb",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/Cargo.lock",
+      "sha256": "9c1fb58fe8af525588c298c8bf2ca1aacf1764e67dac0d5909567a0d147fd990",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/Cargo.toml",
+      "sha256": "ce5ef5b453017ab8fb33bae16ab37e0e3ee2bb1cc6f8f8dc39a6cb2132f18063",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/README.md",
+      "sha256": "a73cc8f21b0722b5853ecc2ced14e33427bd18378e88bf5185073c9c1885c66e",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/configuration/default_settings.jsonc",
+      "sha256": "182f042ccfc020095fb567929955d714f97a23e622574345b7e96a80639d1ce8",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/configuration/installation_instructions.md",
+      "sha256": "211a63fa0eb774f1e205b4873b9dca219748d43968071980b71c26b6f5150d66",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/extension.toml",
+      "sha256": "2a374746a222f89de2f832500680dc771b3897b7ff19801e92a59b9a977846a3",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/mcp-env.cjs",
+      "sha256": "daf67546f358ba09267b233f761c8809f92e0523c58dd659cad519812a2268e3",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/src/lib.rs",
+      "sha256": "7aa8181e8868dab5dddd06cca7352533e51213154c80ea3dbe7b5576b008ea66",
+      "mode": 420
+    }
+  ],
   "generatedFiles": [
     "README.md",
     "CHANGELOG.md",
@@ -12,11 +314,14 @@
     "skills",
     ".claude-plugin/plugin.json",
     ".claude-plugin/marketplace.json",
+    ".agents/plugins/marketplace.json",
     ".codex-plugin/plugin.json",
     ".cursor-plugin/plugin.json",
     ".kiro-plugin/plugin.json",
     ".mcp.json",
+    ".mcp.codex.json",
     ".mcp.kiro.json",
+    "codex-plugin",
     "gemini-extension.json",
     "mcp-env.cjs",
     "GEMINI.md",
@@ -34,10 +339,10 @@
     ".github"
   ],
   "artifactVersions": {
-    "gemini": "0.1.18",
-    "zed": "0.1.18",
-    "codebuff": "0.1.18",
-    "openclaw": "0.1.18"
+    "gemini": "0.1.24",
+    "zed": "0.1.24",
+    "codebuff": "0.1.24",
+    "openclaw": "0.1.24"
   },
   "mutatingTools": [
     "lyrashield_scan_target",
