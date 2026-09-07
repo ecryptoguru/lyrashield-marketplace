@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "e3dfab305d7b9f699080ebf67554dfda9d5d2fcd",
+  "sourceCommit": "946abe6602ad4fb139af7a4a16ecfedbb9795fb3",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.24"
