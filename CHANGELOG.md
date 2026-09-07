@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.20
+
+- Validate exact export hashes inside the marketplace Git repository while excluding repository metadata.
+
+## 0.1.19
+
+- Add deterministic export provenance with exact source commit, generator version, schema version, file hashes, and executable modes.
+- Keep published CLI and Agent Plugin packages self-contained by bundling private workspace code.
+
 ## 0.1.18 distribution corrections
 
 - Pin the published MCP 0.2.4 package and preserve credential-store OAuth refresh with API URL overrides.
