@@ -1,13 +1,13 @@
 {
   "name": "lyrashield",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "a2d6769d0adde48416a1e7a03a6babcc6d9d17eb",
+  "sourceCommit": "e3dfab305d7b9f699080ebf67554dfda9d5d2fcd",
   "generator": {
     "package": "@lyrashield/agent-plugin",
-    "version": "0.1.23"
+    "version": "0.1.24"
   },
   "publication": {
     "status": "release-candidate",
@@ -15,23 +15,28 @@
   },
   "files": [
     {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "adb411de048a766efc62ee864143186d501ae1fa2a38d00bd8ad815225644d5d",
+      "mode": 420
+    },
+    {
       "path": ".claude-plugin/marketplace.json",
-      "sha256": "cbd300629c0c53d7a1576c01ed59a1430d4f55168902ccfe82dc7fff49202694",
+      "sha256": "b7e9f4d59605b0a1feb96a4b34ad9a2460503d11371e561f701c486360b4537f",
       "mode": 420
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "ca4e79dbf3e646b7f1ea23b022d4689936e14fee9bfe2d91046bec3b5af90f74",
+      "sha256": "1e54d9a53f178df6e37abac9aa6a2a409ad1acf54d1d8771cc7066a124a73e64",
       "mode": 420
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "sha256": "ccd3553848bb5eb178ad7e82ff768111bc3be63560eff9147987088e477325db",
+      "sha256": "0b50538a2beac1626277128eb685c7039ea4d8b75a652c2f0ebcdada58244009",
       "mode": 420
     },
     {
       "path": ".cursor-plugin/plugin.json",
-      "sha256": "e9befed2fe1613573609cacd83e37ffd0e2c0e67cf95e538e638132552636a4f",
+      "sha256": "53eca0b08621af2b3cd8379f7adfc9f223c17125dc1076794b8161a78b8d7dd9",
       "mode": 420
     },
     {
@@ -46,7 +51,7 @@
     },
     {
       "path": ".kiro-plugin/plugin.json",
-      "sha256": "1160e1253ec22530eccb1b2c7376204fc17dbe180dedd954309058f9f99f2bf5",
+      "sha256": "12dc88fdf14596f806853eec67cfd6b14f63510ff57f2c0b27233b14f120faa4",
       "mode": 420
     },
     {
@@ -66,7 +71,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "8123876ebbfec68d32086ab550e54d3a8b3e5d388cee74d774eb517cfc931d4e",
+      "sha256": "823b6eb2493386d5b18e88c803c41f97d5995aa28eb2e8ccea265a491d22e040",
       "mode": 420
     },
     {
@@ -86,7 +91,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "582ddf98ca3166aed323cafbff96a6032ed5e6ced9b9d2e30ddb3b3f87b5674d",
+      "sha256": "44630d13c8e9ef09dd57a49df94afc6db73fe47ebeb3b82fc130e498419abbf5",
       "mode": 420
     },
     {
@@ -126,12 +131,27 @@
     },
     {
       "path": "codebuff/lyrashield-review.ts",
-      "sha256": "2b7836bff661075e2037f57efb223fd979be1c80d0b7d68945dfe8630d373857",
+      "sha256": "887ad6435407e821339245dd9e6e52c946b8f7419b1ebdcb52d290f876f44032",
       "mode": 420
     },
     {
       "path": "codebuff/types/agent-definition.ts",
       "sha256": "57c3bd0e1105c17da4cc3d68e652729a221b42b294f7d40ce2974dc5ce6b2d93",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/.codex-plugin/plugin.json",
+      "sha256": "70d864a5667b4fc33c4495455a76bca6e7ddf2961a715772d6c5e663de1c7135",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/.mcp.json",
+      "sha256": "60d9e70ae3e6942a1d70ea743f649f864998739c50927a7bbbec60644ac8cbaa",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/skills/lyrashield/SKILL.md",
+      "sha256": "5570c52b08d01ab92e10c99a60e74a853e565ed96e3ae468c5d0d72deaa3fe3d",
       "mode": 420
     },
     {
@@ -146,7 +166,7 @@
     },
     {
       "path": "gemini-extension/gemini-extension.json",
-      "sha256": "dd472ec7736455ce46d64010666b47bb4ded4b49d04d288fa8266df3cdce1757",
+      "sha256": "ba726f11483d80f5f18e91e5f0b4004c8fc40485e34798ae6d201c03d8975fc1",
       "mode": 420
     },
     {
@@ -156,7 +176,7 @@
     },
     {
       "path": "gemini-extension.json",
-      "sha256": "dd472ec7736455ce46d64010666b47bb4ded4b49d04d288fa8266df3cdce1757",
+      "sha256": "ba726f11483d80f5f18e91e5f0b4004c8fc40485e34798ae6d201c03d8975fc1",
       "mode": 420
     },
     {
@@ -206,17 +226,17 @@
     },
     {
       "path": "openclaw/README.md",
-      "sha256": "d0fead148b58d3eb41fa86d8a23988db7af3e9e81602bb33f98e6da5e6fbda80",
+      "sha256": "d7c2770f502ad990e4ceeef47cd175ab3b415e952ab4e4c3b2f383443dbb510d",
       "mode": 420
     },
     {
       "path": "openclaw/SKILL.md",
-      "sha256": "b86cdf16dcdf9fd91b05310bdab64ec051d3dcab6b42f2c5941c447087176e72",
+      "sha256": "232e0248248c68b9099c5a4bfb3f4ff36747191110071b592c99257b3cead6cc",
       "mode": 420
     },
     {
       "path": "plugin.json",
-      "sha256": "9ee610cdcd9c318b64083bdbc99d55ed2cb1b6c07f73da938247c7d5f5bf7fb3",
+      "sha256": "44006595699b563da9dcd4fc3d635c4651b2f19a97c34fcc2bfe030b1399e901",
       "mode": 420
     },
     {
@@ -231,7 +251,7 @@
     },
     {
       "path": "scripts/validate.mjs",
-      "sha256": "5121145a4a6817fdcd2f484d2867b41625c5ea6a923061add6d52d032dae9e9e",
+      "sha256": "9efffde44f306c0a0c16e9e949f42c97d9a2a2d31cb8954c6a10e8d0f8fbabb4",
       "mode": 420
     },
     {
@@ -246,12 +266,12 @@
     },
     {
       "path": "zed-extension/Cargo.lock",
-      "sha256": "7d003eedea049c861c309b8848cf679e529b0ada9ffedc9ac3c3a3b76fd1f4c7",
+      "sha256": "9c1fb58fe8af525588c298c8bf2ca1aacf1764e67dac0d5909567a0d147fd990",
       "mode": 420
     },
     {
       "path": "zed-extension/Cargo.toml",
-      "sha256": "37d7433ee4e2b925a70b0d383752754b7cad8ff67e5fa86e8e67ea961134bbf4",
+      "sha256": "ce5ef5b453017ab8fb33bae16ab37e0e3ee2bb1cc6f8f8dc39a6cb2132f18063",
       "mode": 420
     },
     {
@@ -271,7 +291,7 @@
     },
     {
       "path": "zed-extension/extension.toml",
-      "sha256": "b3a88941e18e45863720824ae55d1c40da939b68c687080af1d1f4d51b4830ee",
+      "sha256": "2a374746a222f89de2f832500680dc771b3897b7ff19801e92a59b9a977846a3",
       "mode": 420
     },
     {
@@ -294,12 +314,14 @@
     "skills",
     ".claude-plugin/plugin.json",
     ".claude-plugin/marketplace.json",
+    ".agents/plugins/marketplace.json",
     ".codex-plugin/plugin.json",
     ".cursor-plugin/plugin.json",
     ".kiro-plugin/plugin.json",
     ".mcp.json",
     ".mcp.codex.json",
     ".mcp.kiro.json",
+    "codex-plugin",
     "gemini-extension.json",
     "mcp-env.cjs",
     "GEMINI.md",
@@ -317,10 +339,10 @@
     ".github"
   ],
   "artifactVersions": {
-    "gemini": "0.1.23",
-    "zed": "0.1.23",
-    "codebuff": "0.1.23",
-    "openclaw": "0.1.23"
+    "gemini": "0.1.24",
+    "zed": "0.1.24",
+    "codebuff": "0.1.24",
+    "openclaw": "0.1.24"
   },
   "mutatingTools": [
     "lyrashield_scan_target",
