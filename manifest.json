@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "946abe6602ad4fb139af7a4a16ecfedbb9795fb3",
+  "sourceCommit": "bf28c25a85ef1a49e33f7fba7dc1fa4f0134dfb8",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.24"
@@ -71,12 +71,12 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "823b6eb2493386d5b18e88c803c41f97d5995aa28eb2e8ccea265a491d22e040",
+      "sha256": "2504afc89a9751a2b5c26b622cacabff9828238a32305fab222b3b16a19e466b",
       "mode": 420
     },
     {
       "path": "CLIENT-CONTRACTS.md",
-      "sha256": "463dd7230de1c0e2f9a47c9b8274129c404312ee642e61abf178a8162ea77878",
+      "sha256": "c99c6ed7cae6b05b52ac8db7c1c73ac9bc0c9b6e97307eb20cb9b6894a3a54c9",
       "mode": 420
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "44630d13c8e9ef09dd57a49df94afc6db73fe47ebeb3b82fc130e498419abbf5",
+      "sha256": "1800b954d6cac40e1215b0e6cbdda973bd3838868d9131a6d19607fbf52bdc0f",
       "mode": 420
     },
     {
@@ -106,12 +106,12 @@
     },
     {
       "path": "cline/README.md",
-      "sha256": "0851d4737b000912a1f77861fb77a99058869981cb284aa601cd5966e5e86335",
+      "sha256": "ba254150f6b470e839cdaab603fc15aa599b4baa8a12e2516176091226c82a4b",
       "mode": 420
     },
     {
       "path": "cline/llms-install.md",
-      "sha256": "fe1b3af09e2736a95145990183cc5e3b67ecd69987fcc51825e55131da75340f",
+      "sha256": "0b1322492ce51de16f6b1587f7a5fe08fe3bc6c982273b9d2c36bfcdbd654663",
       "mode": 420
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "path": "gemini-extension/README.md",
-      "sha256": "6fe33951ec5fb8a5a11c2f52211f4fa6988c284c7fc2db6a553df34a2a0feea1",
+      "sha256": "3e7f2a05cf74a9b9b8ca99b40ebf294f0e82e01eba1f8436228b6d76c5261d67",
       "mode": 420
     },
     {
@@ -276,7 +276,7 @@
     },
     {
       "path": "zed-extension/README.md",
-      "sha256": "cd9d834b48fa72bb15ef06dc07f6a7af7df2e6322a87b2a09c389b829d8c93a8",
+      "sha256": "a73cc8f21b0722b5853ecc2ced14e33427bd18378e88bf5185073c9c1885c66e",
       "mode": 420
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "path": "zed-extension/configuration/installation_instructions.md",
-      "sha256": "478b413c9d0473922cab47ddcd21f531b76e8f8c13b7605ddea10ebfa5d92a71",
+      "sha256": "211a63fa0eb774f1e205b4873b9dca219748d43968071980b71c26b6f5150d66",
       "mode": 420
     },
     {
