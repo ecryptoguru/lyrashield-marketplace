@@ -1,7 +1,7 @@
 ---
 name: lyrashield
 description: Review LyraShield release-assurance evidence through an OAuth-first MCP connection.
-version: 0.1.26
+version: 0.1.27
 license: MIT-0
 metadata:
   category: security
@@ -26,7 +26,10 @@ The skill is a community ClawHub listing. It is not an official OpenClaw channel
 LyraShield dashboard evidence instead of
 recreating dashboard UI or copying report contents into prompts.
 
-Write actions require OAuth `lyrashield.write` plus the exact-argument approval gate.
+Write actions require OAuth `lyrashield.write`. New delegated connections authorize
+their workflows once through the Connect consent and then execute within connection
+permissions using an idempotency key; legacy nondelegated credentials keep the
+exact-argument approval gate.
 
 Use `lyrashield_check_diff` to review changes and `lyrashield_verify_fix` to retest findings.
-Fixes are proposals that require human review and approval; nothing is applied automatically.
+Fixes are proposals. Authorized workflows execute within connection permissions; pull requests never auto-merge.
