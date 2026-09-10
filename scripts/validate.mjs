@@ -81,6 +81,17 @@ assert(
   "export file set or hash differs from manifest"
 )
 
+const releaseWorkflow = await readFile(path.join(root, ".github/workflows/release.yml"), "utf8")
+assert(
+  releaseWorkflow.includes("target_commitish: ${{ github.sha }}"),
+  "release tags must target the validated workflow commit"
+)
+assert(
+  releaseWorkflow.includes('existing_commit="$(git rev-list -n 1 "${RELEASE_TAG}")"') &&
+    releaseWorkflow.includes('[ "${existing_commit}" != "${GITHUB_SHA}" ]'),
+  "existing release tags must match the validated workflow commit"
+)
+
 assert(!(await exists("plugin")), "portable plugin artifacts must live at the repository root")
 
 // Enforce manifest.forbidden — none of the listed paths may be present anywhere
