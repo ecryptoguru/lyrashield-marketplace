@@ -46,7 +46,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "sha256": "794f1b76655d66597a6c241d39898a2f52cd6b082218becc43631e981e3429ae",
+      "sha256": "a60069fe934ade89d2ac1fdcce3c51b39a50a4761f2f0e4b285c5a5512329255",
       "mode": 420
     },
     {
@@ -256,7 +256,7 @@
     },
     {
       "path": "scripts/validate.mjs",
-      "sha256": "688a82d78370ff2ff7c31b844ef58fc33a2c247f6db7177c46a512cd6138da42",
+      "sha256": "591bbc7b784d222735b914338a204cb91cb16c362f0eb18a36c6fe9b5009566c",
       "mode": 420
     },
     {
