@@ -45,6 +45,11 @@
       "mode": 420
     },
     {
+      "path": ".github/workflows/release.yml",
+      "sha256": "794f1b76655d66597a6c241d39898a2f52cd6b082218becc43631e981e3429ae",
+      "mode": 420
+    },
+    {
       "path": ".github/workflows/validate.yml",
       "sha256": "f4d075b01b4652eb11afa568f7dfa5a2b215ef913492b817e2f263705cf2efba",
       "mode": 420
