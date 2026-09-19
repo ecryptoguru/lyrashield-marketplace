@@ -38,7 +38,7 @@ jobs:
           node-version: 24
 
       - name: Validate before releasing
-        run: node scripts/validate.mjs
+        run: node scripts/validate.mjs --release
 
       - name: Verify manifest version and generate checksums
         env:
@@ -64,18 +64,14 @@ jobs:
           '
           cat SHA256SUMS
 
-      - name: Bind tag to validated commit
+      - name: Refuse an existing release tag
         env:
           RELEASE_TAG: v${{ inputs.version }}
         run: |
           set -euo pipefail
           if git ls-remote --exit-code --tags origin "refs/tags/${RELEASE_TAG}" >/dev/null 2>&1; then
-            git fetch --force --no-tags origin "refs/tags/${RELEASE_TAG}:refs/tags/${RELEASE_TAG}"
-            existing_commit="$(git rev-list -n 1 "${RELEASE_TAG}")"
-            if [ "${existing_commit}" != "${GITHUB_SHA}" ]; then
-              echo "::error::${RELEASE_TAG} points to ${existing_commit}, not validated commit ${GITHUB_SHA}."
-              exit 1
-            fi
+            echo "::error::${RELEASE_TAG} already exists; use a new immutable version."
+            exit 1
           fi
 
       - name: Create release
