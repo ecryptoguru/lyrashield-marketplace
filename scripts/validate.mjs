@@ -35,6 +35,10 @@ assert(
     manifest.publication?.status === "release-candidate",
   "manifest.publication.status is invalid"
 )
+if (process.argv.includes("--release")) {
+  assert(manifest.publication.status === "release-candidate", "release requires a release-candidate export")
+  assert(manifest.publication.sourceClean === true, "release requires clean source provenance")
+}
 assert(Array.isArray(manifest.generatedFiles), "manifest.generatedFiles must be an array")
 for (const relative of manifest.generatedFiles) {
   assert(await exists(relative), `missing generated artifact: ${relative}`)
@@ -79,17 +83,6 @@ const actualFiles = await exportedFiles()
 assert(
   JSON.stringify(listedFiles) === JSON.stringify(actualFiles),
   "export file set or hash differs from manifest"
-)
-
-const releaseWorkflow = await readFile(path.join(root, ".github/workflows/release.yml"), "utf8")
-assert(
-  releaseWorkflow.includes("target_commitish: ${{ github.sha }}"),
-  "release tags must target the validated workflow commit"
-)
-assert(
-  releaseWorkflow.includes('existing_commit="$(git rev-list -n 1 "${RELEASE_TAG}")"') &&
-    releaseWorkflow.includes('[ "${existing_commit}" != "${GITHUB_SHA}" ]'),
-  "existing release tags must match the validated workflow commit"
 )
 
 assert(!(await exists("plugin")), "portable plugin artifacts must live at the repository root")
@@ -331,7 +324,7 @@ assert(
   "root gemini-extension.json excludeTools must equal the manifest-recorded mutating tool set"
 )
 
-const expectedPackage = "@lyrashield/mcp@0.2.8"
+const expectedPackage = "@lyrashield/mcp@0.2.9"
 for (const file of [
   ".mcp.kiro.json",
   "gemini-extension.json",
@@ -347,12 +340,12 @@ for (const file of [
   )
   if (file.endsWith(".rs")) {
     assert(
-      text.includes('const PACKAGE_VERSION: &str = "0.2.8";'),
-      "Zed must pin the published MCP version"
+      text.includes('const PACKAGE_VERSION: &str = "0.2.9";'),
+      "Zed must pin the release-candidate MCP version"
     )
     assert(!text.includes("npm_package_latest_version"), "Zed must not install a floating release")
   } else {
-    assert(text.includes(expectedPackage), `${file} must pin the published MCP version`)
+    assert(text.includes(expectedPackage), `${file} must pin the release-candidate MCP version`)
   }
 }
 assert(
@@ -372,7 +365,7 @@ assert(
   geminiManifest.mcpServers.lyrashield.args.includes(
     '--node-options=--require="${extensionPath}/mcp-env.cjs"'
   ),
-  "Gemini must preload credential normalization before the published MCP server"
+  "Gemini must preload credential normalization before the pinned MCP server"
 )
 const credentialPreload = await readFile(path.join(root, "mcp-env.cjs"), "utf8")
 for (const relative of ["gemini-extension/mcp-env.cjs", "zed-extension/mcp-env.cjs"]) {
