@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "1fd3acc23c6a4a78d375522664aaefaf88533ce0",
+  "sourceCommit": "450be794b8e19e2b73537045829516757de90562",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.28"
@@ -156,7 +156,7 @@
     },
     {
       "path": "codex-plugin/skills/lyrashield/SKILL.md",
-      "sha256": "d47480dc6c8c3b4a404c26c761ec4513a08d17ca77c55b5c98be07f964971217",
+      "sha256": "9765307feb0d2c888c9e3632195a033e06e5d1cbeba427183adaf3303ae701e2",
       "mode": 420
     },
     {
@@ -261,7 +261,7 @@
     },
     {
       "path": "skills/lyrashield/SKILL.md",
-      "sha256": "d47480dc6c8c3b4a404c26c761ec4513a08d17ca77c55b5c98be07f964971217",
+      "sha256": "9765307feb0d2c888c9e3632195a033e06e5d1cbeba427183adaf3303ae701e2",
       "mode": 420
     },
     {
