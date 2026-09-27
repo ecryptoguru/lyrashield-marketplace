@@ -46,12 +46,12 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "sha256": "d100cda3e3ab7e47c3400310c329627594d5976b4c4c11d0111cb94b37a2a60c",
+      "sha256": "7cbb76aa31bcf40712443ba926a688fc3963a0433b3550b8700862b5fd278d3d",
       "mode": 420
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "5deaec821ed13b717b9c71c335e0251222b68976d35ae4180016728922f9c971",
+      "sha256": "e39ca2b51e6e6d8b149156d6ae771842e3a1e0f6035512d1fe3edc9d4dfd9479",
       "mode": 420
     },
     {
@@ -307,6 +307,11 @@
     {
       "path": "zed-extension/mcp-env.cjs",
       "sha256": "daf67546f358ba09267b233f761c8809f92e0523c58dd659cad519812a2268e3",
+      "mode": 420
+    },
+    {
+      "path": "zed-extension/rust-toolchain.toml",
+      "sha256": "107d08ec211153fb0a27add1e89033b8f59d65f8b2d9c9956e37e21a6023be36",
       "mode": 420
     },
     {
