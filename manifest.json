@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "b625b7d8ce13d778a1a0e821c1b8e571a54e8832",
+  "sourceCommit": "7e758cbcc4ebd0d5cd32a1067dbab784c51d53c9",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.30"
@@ -81,7 +81,7 @@
     },
     {
       "path": "CLIENT-CONTRACTS.md",
-      "sha256": "6f4431589f88413e7db7cae36268c3b0e3788a123f8916b3c77204630b755cba",
+      "sha256": "c208c58408149f3eee5abf51e8bb2dafcfcdb9043d049254942e12f233986294",
       "mode": 420
     },
     {
