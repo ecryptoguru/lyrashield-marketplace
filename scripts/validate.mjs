@@ -27,9 +27,8 @@ function assert(condition, message) {
 const manifest = await readJson("manifest.json")
 assert(manifest.manifestSchemaVersion === "marketplace-export/2", "unsupported manifest schema")
 assert(
-  (typeof manifest.sourceCommit === "string" && /^[a-f0-9]{40}$/i.test(manifest.sourceCommit)) ||
-    (manifest.sourceCommit == null && manifest.publication?.status === "unpublished"),
-  "manifest.sourceCommit must be a commit SHA unless the export is unpublished"
+  typeof manifest.sourceCommit === "string" && /^[a-f0-9]{40}$/i.test(manifest.sourceCommit),
+  "manifest.sourceCommit must be a commit SHA"
 )
 assert(
   manifest.publication?.status === "unpublished" ||
@@ -481,6 +480,23 @@ assert(
   "Codebuff executable pin differs"
 )
 const codebuffTools = codebuffDefinition.toolNames ?? []
+const expectedCodebuffMcpTools = [
+  "lyrashield/lyrashield_get_findings",
+  "lyrashield/lyrashield_get_launch_readiness",
+  "lyrashield/lyrashield_list_workspaces",
+  "lyrashield/lyrashield_list_targets",
+  "lyrashield/lyrashield_get_scan_status",
+  "lyrashield/lyrashield_get_scan_quality",
+  "lyrashield/lyrashield_check_diff",
+  "lyrashield/lyrashield_explain_finding",
+  "lyrashield/lyrashield_generate_fix_plan",
+  "lyrashield/lyrashield_create_pr_security_recap",
+]
+assert(
+  JSON.stringify(codebuffTools.filter((name) => name.startsWith("lyrashield/"))) ===
+    JSON.stringify(expectedCodebuffMcpTools),
+  "Codebuff MCP tools must match the validated curated allowlist"
+)
 assert(
   !codebuffTools.includes("run_terminal_command") &&
     manifest.mutatingTools.every((name) => !codebuffTools.includes(`lyrashield/${name}`)) &&
