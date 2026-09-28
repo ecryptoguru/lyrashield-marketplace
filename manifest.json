@@ -4,14 +4,14 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": null,
+  "sourceCommit": "7e758cbcc4ebd0d5cd32a1067dbab784c51d53c9",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.30"
   },
   "publication": {
-    "status": "unpublished",
-    "sourceClean": false
+    "status": "release-candidate",
+    "sourceClean": true
   },
   "files": [
     {
@@ -81,7 +81,7 @@
     },
     {
       "path": "CLIENT-CONTRACTS.md",
-      "sha256": "24e098ca593b71f66ebea627fba6ee1e4f81e2e0c50d1a83b6cfa009a78a246d",
+      "sha256": "c208c58408149f3eee5abf51e8bb2dafcfcdb9043d049254942e12f233986294",
       "mode": 420
     },
     {
@@ -96,7 +96,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "30e7da912e98029bb65e029262bb8ff397900a238edbef87f07165857cd38bee",
+      "sha256": "6864b84cc842ca2580e5c6ce29ced69bc4a8fcaa4a2e37a71ae3e9214eae397a",
       "mode": 420
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "path": "codebuff/README.md",
-      "sha256": "f53acef52996cf4d041c319f655b0fa2b15bb7f018bbb366e9c00759cda09ed6",
+      "sha256": "8654c06996defb041a8e6eaca9567e50425dba314d68c2b64422a80198857f36",
       "mode": 420
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "path": "codex-plugin/skills/lyrashield/SKILL.md",
-      "sha256": "9765307feb0d2c888c9e3632195a033e06e5d1cbeba427183adaf3303ae701e2",
+      "sha256": "420d27e313e924f24c0639aa221f463fc341f1474001fdcdffea6e5c389e1804",
       "mode": 420
     },
     {
@@ -166,12 +166,12 @@
     },
     {
       "path": "gemini-extension/README.md",
-      "sha256": "a611aa316b6d3f79320f9e0f8b0f265b5503261c592dabb15f66a7f2acab0010",
+      "sha256": "31e734de6fd273df0c4b4686c3f36d3a5ef54080cf6786ecd7074c9745fd6d33",
       "mode": 420
     },
     {
       "path": "gemini-extension/gemini-extension.json",
-      "sha256": "3eb6973deef99b586e8fd9cda5d586cc1e0daaa0357f988e81da4be212ab6423",
+      "sha256": "39b87d44c9cd69c7dd68ec016fb6e4583c6024e10931ada3dbcb885fe6a31bec",
       "mode": 420
     },
     {
@@ -181,7 +181,7 @@
     },
     {
       "path": "gemini-extension.json",
-      "sha256": "3eb6973deef99b586e8fd9cda5d586cc1e0daaa0357f988e81da4be212ab6423",
+      "sha256": "39b87d44c9cd69c7dd68ec016fb6e4583c6024e10931ada3dbcb885fe6a31bec",
       "mode": 420
     },
     {
@@ -206,7 +206,7 @@
     },
     {
       "path": "kiro-power/README.md",
-      "sha256": "32cad2542cd43a52d9768670cd21ce4a229b34ea57a204739d40287227323b86",
+      "sha256": "e7b7a1f19a9b49b17b2234011b213443ef67ce900c3ca3d32085dff2c8e0613b",
       "mode": 420
     },
     {
@@ -256,7 +256,7 @@
     },
     {
       "path": "scripts/validate.mjs",
-      "sha256": "997924b9ce4535f991147d596a7b6ee7354eb388954820ec02f82f6ae574abbf",
+      "sha256": "01bacb4157ba5dec7bd0205ec6cd9d1ea9249d7ea67d6f0aa61b7091b02687ae",
       "mode": 420
     },
     {
@@ -266,7 +266,7 @@
     },
     {
       "path": "skills/lyrashield/SKILL.md",
-      "sha256": "9765307feb0d2c888c9e3632195a033e06e5d1cbeba427183adaf3303ae701e2",
+      "sha256": "420d27e313e924f24c0639aa221f463fc341f1474001fdcdffea6e5c389e1804",
       "mode": 420
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "path": "zed-extension/README.md",
-      "sha256": "6e9353b23d68d5111dab970106f1112fe921726a1779208a4dd7233331366730",
+      "sha256": "abf5637778d71763b1f7b84dfe3d699e0ad69dd685177c3039aa2764e04fbd7b",
       "mode": 420
     },
     {
@@ -296,7 +296,7 @@
     },
     {
       "path": "zed-extension/configuration/installation_instructions.md",
-      "sha256": "31f3cebba9917ef58315f6b04fb1c276d3dc5e9c12dddf0ed3216e0b57ba18e7",
+      "sha256": "22b76b8575d7d145e8ec30a0bdf908ca6946bd75973967e0996d9ff37af02cbf",
       "mode": 420
     },
     {
@@ -362,13 +362,13 @@
   "mutatingTools": [
     "lyrashield_scan_target",
     "lyrashield_cancel_scan",
-    "lyrashield_upload_scan_attachment",
-    "lyrashield_delete_scan_attachment",
-    "lyrashield_request_fix_pr",
     "lyrashield_create_report",
     "lyrashield_run_pr_scan",
     "lyrashield_record_fix_proposal",
-    "lyrashield_verify_fix"
+    "lyrashield_verify_fix",
+    "lyrashield_upload_scan_attachment",
+    "lyrashield_delete_scan_attachment",
+    "lyrashield_request_fix_pr"
   ],
   "forbidden": [
     "apps/web",
