@@ -372,7 +372,7 @@ assert(
   "root gemini-extension.json excludeTools must equal the manifest-recorded mutating tool set"
 )
 
-const expectedPackage = "@lyrashield/mcp@0.2.10"
+const expectedPackage = "@lyrashield/mcp@0.2.11"
 const publishedMcpVerifier = await readFile(
   path.join(root, "scripts/verify-published-mcp.mjs"),
   "utf8"
@@ -380,6 +380,18 @@ const publishedMcpVerifier = await readFile(
 assert(
   publishedMcpVerifier.includes('npm_config_ignore_scripts: "true"'),
   "published MCP runtime verification must disable npm lifecycle scripts"
+)
+assert(
+  !publishedMcpVerifier.includes("...process.env") &&
+    !/spawn\(\s*["']npx["']/.test(publishedMcpVerifier) &&
+    publishedMcpVerifier.includes("await verifyStdio(process.execPath") &&
+    publishedMcpVerifier.includes("verifyIntegrity(archive, metadata.dist?.integrity)") &&
+    publishedMcpVerifier.includes("marketplace-stdio/1"),
+  "published MCP verification must execute the verified local artifact with an isolated environment and required tool schemas"
+)
+assert(
+  await exists("scripts/tests/verify-published-mcp.fixtures.mjs"),
+  "published MCP verifier fixtures must be included in the export"
 )
 const kiro = (await readJson(".mcp.kiro.json")).mcpServers?.lyrashield
 assert(
@@ -401,7 +413,7 @@ for (const file of [
   )
   if (file.endsWith(".rs")) {
     assert(
-      text.includes('const PACKAGE_VERSION: &str = "0.2.10";'),
+      text.includes('const PACKAGE_VERSION: &str = "0.2.11";'),
       "Zed must pin the published MCP version"
     )
     assert(!text.includes("npm_package_latest_version"), "Zed must not install a floating release")
