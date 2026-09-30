@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "7e758cbcc4ebd0d5cd32a1067dbab784c51d53c9",
+  "sourceCommit": "58cc2e46ec6c60f46f2d7ed9a8059205394aae88",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.30"
@@ -71,17 +71,17 @@
     },
     {
       "path": ".mcp.kiro.json",
-      "sha256": "1a588ac4b3ff4c5e5716bc5b0cbce32d65c28ef05fd1264ba64e67ffb305e491",
+      "sha256": "8ce54937cf5589f398583c11f52809fb6994d0419fb4a2458d6f8c0de57ea789",
       "mode": 420
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "a9f8aa86a7fa61dab6449034dd33ac087b707b7f59c47e89af8efa94570ba89b",
+      "sha256": "3a80d8347dc8151a1a01c4d00497569c33223cd44ab80af795c24c4d3c93651c",
       "mode": 420
     },
     {
       "path": "CLIENT-CONTRACTS.md",
-      "sha256": "c208c58408149f3eee5abf51e8bb2dafcfcdb9043d049254942e12f233986294",
+      "sha256": "9c4efae2adbab3b7303348a05c2ef3e181a37ffdc11bf725a5022bdaa70b7d93",
       "mode": 420
     },
     {
@@ -96,7 +96,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "6864b84cc842ca2580e5c6ce29ced69bc4a8fcaa4a2e37a71ae3e9214eae397a",
+      "sha256": "7d7b37d17e380471d908a0f2ab51cb26b53ab9232691ae017c322703b3d30a3f",
       "mode": 420
     },
     {
@@ -131,12 +131,12 @@
     },
     {
       "path": "codebuff/README.md",
-      "sha256": "8654c06996defb041a8e6eaca9567e50425dba314d68c2b64422a80198857f36",
+      "sha256": "3f1da97893f649351314af98cdeda98a00f8d2ef570e11e55fdecf130650c92b",
       "mode": 420
     },
     {
       "path": "codebuff/lyrashield-review.ts",
-      "sha256": "dd064c3b2085c512fb8071de57da0f3d8e8387aaa5910fea6fb6ad743e55ff5a",
+      "sha256": "abce39ce62063244314eb7fa93c92378f1110b2589600cc78fa460b71274f7fa",
       "mode": 420
     },
     {
@@ -166,12 +166,12 @@
     },
     {
       "path": "gemini-extension/README.md",
-      "sha256": "31e734de6fd273df0c4b4686c3f36d3a5ef54080cf6786ecd7074c9745fd6d33",
+      "sha256": "eba26107140d71eaa97a3e1444883c809d1afe6d001feb20905415fe4274da35",
       "mode": 420
     },
     {
       "path": "gemini-extension/gemini-extension.json",
-      "sha256": "39b87d44c9cd69c7dd68ec016fb6e4583c6024e10931ada3dbcb885fe6a31bec",
+      "sha256": "ba621f9bcaef687b4a76d62bd79e0ce582f0845f1d72ce39e4ef8b8f2f584c64",
       "mode": 420
     },
     {
@@ -181,7 +181,7 @@
     },
     {
       "path": "gemini-extension.json",
-      "sha256": "39b87d44c9cd69c7dd68ec016fb6e4583c6024e10931ada3dbcb885fe6a31bec",
+      "sha256": "ba621f9bcaef687b4a76d62bd79e0ce582f0845f1d72ce39e4ef8b8f2f584c64",
       "mode": 420
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "path": "kilo/mcps/lyrashield/MCP.yaml",
-      "sha256": "b6c2413134ca39f23126ffee066775450b7fd5dc95fa67457529f1b265db530d",
+      "sha256": "b0dc3e8ef2b3e756b3443d8a3f268466d61e205320916eab7d2ccb58aa9d6ab8",
       "mode": 420
     },
     {
@@ -206,7 +206,7 @@
     },
     {
       "path": "kiro-power/README.md",
-      "sha256": "e7b7a1f19a9b49b17b2234011b213443ef67ce900c3ca3d32085dff2c8e0613b",
+      "sha256": "8bd80915ff0852ceaf4f9fa228342308e24c4de7ab5a48fea47effd32189bbad",
       "mode": 420
     },
     {
@@ -255,13 +255,18 @@
       "mode": 420
     },
     {
+      "path": "scripts/tests/verify-published-mcp.fixtures.mjs",
+      "sha256": "4b3375d62485dccfd9b47f41fa73aa4df3fb9ce224454a1d34b9ff49d36e4ed3",
+      "mode": 420
+    },
+    {
       "path": "scripts/validate.mjs",
-      "sha256": "01bacb4157ba5dec7bd0205ec6cd9d1ea9249d7ea67d6f0aa61b7091b02687ae",
+      "sha256": "5b76d7b7b189f00d2fe9c513053d49be59e9017044495dc9072c84dfe51a6f16",
       "mode": 420
     },
     {
       "path": "scripts/verify-published-mcp.mjs",
-      "sha256": "0006f190058b6222a1abc62c942bc6433629ffa7adc15c6b95175c7af80ccddc",
+      "sha256": "0d68efe63649b4a7dfe849dfadaf50e38fa7d10da9789c24cf2c65c9345c2eaf",
       "mode": 420
     },
     {
@@ -286,7 +291,7 @@
     },
     {
       "path": "zed-extension/README.md",
-      "sha256": "abf5637778d71763b1f7b84dfe3d699e0ad69dd685177c3039aa2764e04fbd7b",
+      "sha256": "27b88eab6ca8528e5cc9b7a89184a0082176ffb7131ec65a08e7e88b5c99a49f",
       "mode": 420
     },
     {
@@ -296,7 +301,7 @@
     },
     {
       "path": "zed-extension/configuration/installation_instructions.md",
-      "sha256": "22b76b8575d7d145e8ec30a0bdf908ca6946bd75973967e0996d9ff37af02cbf",
+      "sha256": "1b5e328f80e17880ec2eab12dd089cd1b070f019e39551433a655e6a6253bbd1",
       "mode": 420
     },
     {
@@ -316,7 +321,7 @@
     },
     {
       "path": "zed-extension/src/lib.rs",
-      "sha256": "d4e258ea0574268b428fedc3d0759f1714accf4576b28debb2fdfe6abed04b9c",
+      "sha256": "1c2f6f4263f14024a1fc45ddb2c800bed084a12ba473f8815fdff15e855c722b",
       "mode": 420
     }
   ],
