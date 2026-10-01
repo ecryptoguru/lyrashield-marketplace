@@ -1,13 +1,13 @@
 {
   "name": "lyrashield",
-  "version": "0.1.30",
+  "version": "0.1.31",
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "b730cc1aa37b53bf5e48f51bf8754efae68fccbf",
+  "sourceCommit": "4822306e24f375800981bf282fd992a9c15dcde8",
   "generator": {
     "package": "@lyrashield/agent-plugin",
-    "version": "0.1.30"
+    "version": "0.1.31"
   },
   "publication": {
     "status": "release-candidate",
@@ -16,27 +16,27 @@
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
-      "sha256": "94cba3874a0eb40e7863726ac113b7113e2d05057db1db7664976bd690116a4c",
+      "sha256": "ee900fd2626c8841c50ad340edc51a74235ad9cb0c36477e30f185ed352169ad",
       "mode": 420
     },
     {
       "path": ".claude-plugin/marketplace.json",
-      "sha256": "d66bf944d7e0cccb041d395890e0a1b612c86fa4db5ff9e573b9c1333d6a1a0f",
+      "sha256": "286a33c6a736148943db0e1ef1204d84f79fdb6dc6c03d4613f36f0251f4abd5",
       "mode": 420
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "0a0d69749c007409eadd1a609eadf395aff170da5182f134d3353efdbb3d40f1",
+      "sha256": "9edc39b4f5e078816b616155359d1e5c10158d4b56b85b00f46841d5c918a736",
       "mode": 420
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "sha256": "1a51feba4bbc4377c980741c0e85a902a488af1880408c43893ed679ece41c2f",
+      "sha256": "c30adf222438032b5fe71fae8c1c3094f44d476a785ae0331feaaaf3dbb1d618",
       "mode": 420
     },
     {
       "path": ".cursor-plugin/plugin.json",
-      "sha256": "cc36ba2f6f5bde3d6bff670969b6ca0abc6a9f192c1e28fee7aa847fc2e333b7",
+      "sha256": "ae02cbb1b0621a0128beb95a4b48bbb44849cd7ae2d9e242c278f0184a7c1552",
       "mode": 420
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "path": ".kiro-plugin/plugin.json",
-      "sha256": "a4e67227e1809a6292daa950771ee37aaba13f98a39fa83de2718183432a46dc",
+      "sha256": "c9fd0ec855cf8a3d416843ba006426b6e6f81e0e1d2df11f7a9016d6a844c6c1",
       "mode": 420
     },
     {
@@ -71,22 +71,22 @@
     },
     {
       "path": ".mcp.kiro.json",
-      "sha256": "8ce54937cf5589f398583c11f52809fb6994d0419fb4a2458d6f8c0de57ea789",
+      "sha256": "b365f4d7f1321cdb42b92b53e5ed8ccfde46dc7db3108ea114c1089e10d41264",
       "mode": 420
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "3a80d8347dc8151a1a01c4d00497569c33223cd44ab80af795c24c4d3c93651c",
+      "sha256": "6cc08b3ee604b5dbe2656567e12c974578a342fd5aa8fa062c0470fa6f54613b",
       "mode": 420
     },
     {
       "path": "CLIENT-CONTRACTS.md",
-      "sha256": "9c4efae2adbab3b7303348a05c2ef3e181a37ffdc11bf725a5022bdaa70b7d93",
+      "sha256": "36b6b5f75250e1d8bb6b08a6ed151304ff3ff5f6709746207644b2fc928f4d1f",
       "mode": 420
     },
     {
       "path": "GEMINI.md",
-      "sha256": "e6c5f20ef6c5192f2ad85b24353fb2116ba122578405a8f4efceb3b2899825ff",
+      "sha256": "131945a7f8e7786e70978bf9487cc1c5bfe13571f6f1839f4f7afdfdedb8bf43",
       "mode": 420
     },
     {
@@ -96,7 +96,117 @@
     },
     {
       "path": "README.md",
-      "sha256": "7d7b37d17e380471d908a0f2ab51cb26b53ab9232691ae017c322703b3d30a3f",
+      "sha256": "09b39bbb2bc0c36a57fa5c64e51a908d5b5d8e1f1daf057c667ad73853bc7ed1",
+      "mode": 420
+    },
+    {
+      "path": "aider/CONVENTIONS.md",
+      "sha256": "39ade43a4a731a07e7d4deb6bf7927054a60965c0e44b9ecf04fb84b4b5709e6",
+      "mode": 420
+    },
+    {
+      "path": "aider/README.md",
+      "sha256": "1fae1fd1b82801b9048930eae0a53fde21f8defb99f10b8c45101320a7e598e5",
+      "mode": 420
+    },
+    {
+      "path": "amp/README.md",
+      "sha256": "fdec398c453e951bbae05470e291f731a808b772cca611ac02651849fb667287",
+      "mode": 420
+    },
+    {
+      "path": "amp/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "amp/fix-and-retest/mcp.json",
+      "sha256": "5325a85bc60ae25d6411f60ab7f46e2a163c0c98fcdae0bbed3b619a9e3adfb8",
+      "mode": 420
+    },
+    {
+      "path": "amp/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "amp/get-started/mcp.json",
+      "sha256": "3218d55b26bd63d2f255deb468ef8b49ac3c88d972aff2a96437e8837819bb80",
+      "mode": 420
+    },
+    {
+      "path": "amp/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "amp/launch-readiness/mcp.json",
+      "sha256": "985884427b2e60fb15c47c01a38ff6cd58a1b0478a8808b2397dc0dc2eb4e413",
+      "mode": 420
+    },
+    {
+      "path": "amp/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "amp/review-changes/mcp.json",
+      "sha256": "3ae5fb204afe0ba3cfb829c9a83bb32b60fab915a43bcb2e9a4476029078b520",
+      "mode": 420
+    },
+    {
+      "path": "amp/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "amp/scan-project/mcp.json",
+      "sha256": "effea2479e4b5c7aa7a40417dd1812ba2590af5066eba4de747718bd0ba43eb5",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/README.md",
+      "sha256": "ae3cc22487f8316fc440729da88d1f3cccdcdeee381644eede68f881b94a006f",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/mcp_config.json",
+      "sha256": "10fee70469e5c1939292f68fdf590c622c42ba1148882ba6e7f48ed23c83241c",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/plugin.json",
+      "sha256": "5f4c5cd4ebfe94490e1a2d896c36f11f4ac4a930a6b9a3ad5e3f9c267f13c4a9",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "antigravity/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
       "mode": 420
     },
     {
@@ -110,8 +220,68 @@
       "mode": 420
     },
     {
+      "path": "augment/.augment-plugin/marketplace.json",
+      "sha256": "886422373a62727c7d6c5c8b0b875c2c1ae56b79bdbd3b884ea9a0db5ec8cf81",
+      "mode": 420
+    },
+    {
+      "path": "augment/README.md",
+      "sha256": "e8f08ccad41f70bf8c5bd9f1d990b47dcd769b3dd052e52f83b47684477b71f0",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/.augment-plugin/plugin.json",
+      "sha256": "38ed3232fd741ef126b01bd74ad41e27329d327c9e45319b4c4e3bb40828b023",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/.mcp.json",
+      "sha256": "33564988cb5841e5f8524a2b598b30f8a2233ad14f86bf48e7f3192c3a7d12e8",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/commands/review-changes.md",
+      "sha256": "ea0ef69f9f44442beb7ff7a594ec7c8ae510c2d30034c7fe251a0c3e19bf7b62",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/commands/scan-project.md",
+      "sha256": "15cec381719e024c03cc48fadc7eee02e52ca492fece1d44478b90d9d383542d",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "augment/plugins/lyrashield/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
       "path": "cline/README.md",
-      "sha256": "6ecf536129ae31ca38fcbcfc3a97da0eaee5c94c8cc9947133e55807f1b70ae2",
+      "sha256": "6e951eb7a75fb97b4952f236c4938053a681eed943251e57b45de76dfe9f3d68",
       "mode": 420
     },
     {
@@ -125,18 +295,48 @@
       "mode": 420
     },
     {
+      "path": "cline/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "cline/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "cline/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "cline/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "cline/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "cline/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
       "path": "cline/submission.json",
       "sha256": "78647a426a7a8f4af701b6063dd99cb767315d8af4169b40e3897c037c5331da",
       "mode": 420
     },
     {
       "path": "codebuff/README.md",
-      "sha256": "3f1da97893f649351314af98cdeda98a00f8d2ef570e11e55fdecf130650c92b",
+      "sha256": "5de7d8c0ccbce843954814421e0a1ed638c842dd149e095fb816b7675417432e",
       "mode": 420
     },
     {
       "path": "codebuff/lyrashield-review.ts",
-      "sha256": "abce39ce62063244314eb7fa93c92378f1110b2589600cc78fa460b71274f7fa",
+      "sha256": "24a7c1ba7c99c4f3a81bac7a1382c84115086e090a84f3cc968b9c040e77c553",
       "mode": 420
     },
     {
@@ -146,7 +346,7 @@
     },
     {
       "path": "codex-plugin/.codex-plugin/plugin.json",
-      "sha256": "8a00dde02554ff7e15b157465871d222c4d28bc14243c05a3f88b70f24b920bd",
+      "sha256": "4717197f88ca6973b9a39783701723c3811c750ffe02c4b80c1a0270366d90d5",
       "mode": 420
     },
     {
@@ -155,23 +355,243 @@
       "mode": 420
     },
     {
+      "path": "codex-plugin/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
       "path": "codex-plugin/skills/lyrashield/SKILL.md",
-      "sha256": "420d27e313e924f24c0639aa221f463fc341f1474001fdcdffea6e5c389e1804",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "codex-plugin/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "continue/README.md",
+      "sha256": "4faa5fb2090d2bb6f9a6d1a0707d4cf5a16705a227372e3d1fc6bd6af9b80757",
+      "mode": 420
+    },
+    {
+      "path": "continue/mcpServers/lyrashield.yaml",
+      "sha256": "3e72961390d9c7a2441179f025af2d079c0d9b86bb47cf5f34b82294f969339a",
+      "mode": 420
+    },
+    {
+      "path": "continue/prompts/fix-and-retest.md",
+      "sha256": "a6c12634a422a7175c7140b5b123e28393058e8f1128174a6b6262bab5b267a8",
+      "mode": 420
+    },
+    {
+      "path": "continue/prompts/get-started.md",
+      "sha256": "128a2d3dbfeb3b5f74b48555a5d7e306b7c76845e0c108b54128f15511e190c8",
+      "mode": 420
+    },
+    {
+      "path": "continue/prompts/launch-readiness.md",
+      "sha256": "36ed707ce805e80515ff70568f7bfc448535647f8621c1c0228d3ce83230c789",
+      "mode": 420
+    },
+    {
+      "path": "continue/prompts/review-changes.md",
+      "sha256": "6001c0ea7a2386b4e1bfa91fd8a626abb42112c8273f28650e0d2c76f6f28399",
+      "mode": 420
+    },
+    {
+      "path": "continue/prompts/scan-project.md",
+      "sha256": "ba16918a4397d562f02f712cc1f1541ccf7b0d2c68f66069d1de312cf1174683",
+      "mode": 420
+    },
+    {
+      "path": "continue/rules/lyrashield.md",
+      "sha256": "921e301f895f90a82d73c2c3d2b290938758932c59826d348d15dc365dbc650f",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/README.md",
+      "sha256": "1ff6b8d17e009664326a58151251a532975452df02fc4b0e668e933b7dda3788",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/plugin/mcp.json",
+      "sha256": "d78d786efc1298ea724c7c8961dbf1d6389661916a9be3d006eeb379be6a59ba",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/plugin/plugin.json",
+      "sha256": "2ac959f87eac4be1636d71fc5e9d7a7252f30179f0257d5e76b9ed3657e961f0",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "devin-cli/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "devin-desktop/README.md",
+      "sha256": "e05245a92e45d2223c49d71a33e799fbf45066eba742f71857fc71c3134a0946",
+      "mode": 420
+    },
+    {
+      "path": "devin-desktop/mcp_config.json",
+      "sha256": "10fee70469e5c1939292f68fdf590c622c42ba1148882ba6e7f48ed23c83241c",
+      "mode": 420
+    },
+    {
+      "path": "devin-desktop/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "devin-desktop/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "devin-desktop/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "devin-desktop/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "devin-desktop/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "devin-desktop/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "factory/.factory-plugin/marketplace.json",
+      "sha256": "db434d18050805dded6e580fe416fcd526d873a2f2ce22d71dc2da45db9fd96f",
+      "mode": 420
+    },
+    {
+      "path": "factory/README.md",
+      "sha256": "5c345980a177511d7e2d0303aadc604a310cd7b4b19b6d982c48676d543d5d1f",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/.factory-plugin/plugin.json",
+      "sha256": "38ed3232fd741ef126b01bd74ad41e27329d327c9e45319b4c4e3bb40828b023",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/commands/review-changes.md",
+      "sha256": "ea0ef69f9f44442beb7ff7a594ec7c8ae510c2d30034c7fe251a0c3e19bf7b62",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/commands/scan-project.md",
+      "sha256": "239872b87891879b576b948a708e7dd44784699f895d37f2ab4f0b1c654898c4",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/mcp.json",
+      "sha256": "1e1acf4f9568f8953d2c1a71224bebd4267f0d7ad4de0aa6ede429a79a20559a",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "factory/plugins/lyrashield/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
       "mode": 420
     },
     {
       "path": "gemini-extension/GEMINI.md",
-      "sha256": "e6c5f20ef6c5192f2ad85b24353fb2116ba122578405a8f4efceb3b2899825ff",
+      "sha256": "131945a7f8e7786e70978bf9487cc1c5bfe13571f6f1839f4f7afdfdedb8bf43",
       "mode": 420
     },
     {
       "path": "gemini-extension/README.md",
-      "sha256": "eba26107140d71eaa97a3e1444883c809d1afe6d001feb20905415fe4274da35",
+      "sha256": "c06eb64e43d2e3ec6ffe92c35af964009858343fd1607b4ef56720b89911ff16",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/commands/lyrashield/review-changes.toml",
+      "sha256": "9d9b8cf512dee62d92ab4882f1a4fe328f0aaeb5f6ae357e9d854a268427111a",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/commands/lyrashield/scan-project.toml",
+      "sha256": "4dac089879b0f4f4a96412fc41fc8424c19b7c4f1cc88eb5709e6f6fa55cae16",
       "mode": 420
     },
     {
       "path": "gemini-extension/gemini-extension.json",
-      "sha256": "ba621f9bcaef687b4a76d62bd79e0ce582f0845f1d72ce39e4ef8b8f2f584c64",
+      "sha256": "082ea124ac196b4dc34e56ef76bc8f5352eba173700ec0325f082e161f1bbddd",
       "mode": 420
     },
     {
@@ -180,13 +600,213 @@
       "mode": 420
     },
     {
+      "path": "gemini-extension/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "gemini-extension/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
       "path": "gemini-extension.json",
-      "sha256": "ba621f9bcaef687b4a76d62bd79e0ce582f0845f1d72ce39e4ef8b8f2f584c64",
+      "sha256": "082ea124ac196b4dc34e56ef76bc8f5352eba173700ec0325f082e161f1bbddd",
+      "mode": 420
+    },
+    {
+      "path": "goose/README.md",
+      "sha256": "fd3138ae7237f14347eeb0d6da204c9c1928dd226c51894ae5b579998df05f41",
+      "mode": 420
+    },
+    {
+      "path": "goose/config.yaml",
+      "sha256": "cdf25afbc5328cca3ef1fb2f5024bbe59cd67678e6cb6a4c00013c8cf3136524",
+      "mode": 420
+    },
+    {
+      "path": "goose/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "goose/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "goose/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "goose/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "goose/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "goose/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "hermes/README.md",
+      "sha256": "c6757f12b1a9a0f4d38a19772acd563606088a9c366774a09939209505135a20",
+      "mode": 420
+    },
+    {
+      "path": "hermes/hermes-mcp.yaml",
+      "sha256": "ffaa58f6b09592af81b1e3015e7619e9bec01e5d0d39725a0bff8219357332d5",
+      "mode": 420
+    },
+    {
+      "path": "hermes/plugin/mcp.json",
+      "sha256": "f51908cbe99d666f5f0888c4f7cea7ab84281ac1839e49bf853becb7dbe51b46",
+      "mode": 420
+    },
+    {
+      "path": "hermes/plugin/plugin.json",
+      "sha256": "2ac959f87eac4be1636d71fc5e9d7a7252f30179f0257d5e76b9ed3657e961f0",
+      "mode": 420
+    },
+    {
+      "path": "hermes/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "hermes/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "hermes/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "hermes/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "hermes/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "hermes/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-ai-assistant/README.md",
+      "sha256": "0bbbb96aeebf417ea4d22cbb48f89626abcbccf922673a75ee68902fb3beb609",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-ai-assistant/mcp.json",
+      "sha256": "f819da88f0e5c972a0cb7be31267c8f798a707c852bc9e799b760e402069b675",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-ai-assistant/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-ai-assistant/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-ai-assistant/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-ai-assistant/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-ai-assistant/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-ai-assistant/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-junie/README.md",
+      "sha256": "666a4e1447c92d5843817e25f8666b09c4d2e842d8ad60fed5147ddeb74077e9",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-junie/mcp.json",
+      "sha256": "f819da88f0e5c972a0cb7be31267c8f798a707c852bc9e799b760e402069b675",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-junie/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-junie/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-junie/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-junie/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-junie/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "jetbrains-junie/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
       "mode": 420
     },
     {
       "path": "kilo/README.md",
-      "sha256": "3968eb799888394d5964135c9a7e314807c41f7ddf11e3bc037e536d821cbcc5",
+      "sha256": "2f90500f0080f90fef0b16831cc4776d63910c25c6dcf8185b140f21d950926a",
       "mode": 420
     },
     {
@@ -196,17 +816,152 @@
     },
     {
       "path": "kilo/mcps/lyrashield/MCP.yaml",
-      "sha256": "b0dc3e8ef2b3e756b3443d8a3f268466d61e205320916eab7d2ccb58aa9d6ab8",
+      "sha256": "0626e09d08fbbf79e6630707c403ba0fc9abf0a97fe6e4171650af4bf12e72c5",
+      "mode": 420
+    },
+    {
+      "path": "kilo/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "kilo/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "kilo/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "kilo/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "kilo/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "kilo/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
       "mode": 420
     },
     {
       "path": "kiro-power/POWER.md",
-      "sha256": "4cc585d22717c506d6fbafaacc6c2809f82c4c4159f5bb1e19adfe05d1f8dcd2",
+      "sha256": "36b65e3d8354c43a3e228ea9eb6bc22d16cfd24f071754f22f8036dfa6efc0a1",
       "mode": 420
     },
     {
       "path": "kiro-power/README.md",
-      "sha256": "8bd80915ff0852ceaf4f9fa228342308e24c4de7ab5a48fea47effd32189bbad",
+      "sha256": "553079198a0800db9d4cefc4fe289580c24b1adb12d4328cb3bfea8bdc35dd00",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/mcp.json",
+      "sha256": "d78d786efc1298ea724c7c8961dbf1d6389661916a9be3d006eeb379be6a59ba",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/plugin.json",
+      "sha256": "2ac959f87eac4be1636d71fc5e9d7a7252f30179f0257d5e76b9ed3657e961f0",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "kiro-power/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "lovable/README.md",
+      "sha256": "2c03f6a196881f70692734986054106114a2c07c5dc15a67ac56fd7e7a101f57",
+      "mode": 420
+    },
+    {
+      "path": "lovable/github-import-urls.txt",
+      "sha256": "59a44656305ba38c84fd02ce62929acccde79fd92c3d70140c200c7cff78a2d6",
+      "mode": 420
+    },
+    {
+      "path": "lovable/imports/fix-and-retest.zip",
+      "sha256": "e1ecff2300b28b800f3fa276dc77f956c9eaab814848e2da16650ed608cb9a28",
+      "mode": 420
+    },
+    {
+      "path": "lovable/imports/get-started.zip",
+      "sha256": "362fb577f8d4cdf4859385c32efed8665d7f4f8a3cf19a89937811b2a31decba",
+      "mode": 420
+    },
+    {
+      "path": "lovable/imports/launch-readiness.zip",
+      "sha256": "4f26fe49022badf43e5801c735743138012b63c307d9638473c00d28fdd1d221",
+      "mode": 420
+    },
+    {
+      "path": "lovable/imports/review-changes.zip",
+      "sha256": "0336a8cee7b83a5ae4edfcad4b99ebd2eaa23e781a127554a91b88712fa10ba5",
+      "mode": 420
+    },
+    {
+      "path": "lovable/imports/scan-project.zip",
+      "sha256": "001882a5e7f1dc6026a62232842fb4ede3257577bc5e35c5e0f3af841de5838f",
+      "mode": 420
+    },
+    {
+      "path": "lovable/skills/fix-and-retest/SKILL.md",
+      "sha256": "a6096cf08cb5089601dc1bb6b2b19da1bac9f998447021b1423a3ab07eeb2b78",
+      "mode": 420
+    },
+    {
+      "path": "lovable/skills/get-started/SKILL.md",
+      "sha256": "aafe7bcbd78cdc78ef0f82395861be2c104c729eaddadfcf3ac239f993ff128b",
+      "mode": 420
+    },
+    {
+      "path": "lovable/skills/launch-readiness/SKILL.md",
+      "sha256": "c89af3f09c1137242a1d19eaa34e75c4bf4c6240671bd0f83f9cee80923182cd",
+      "mode": 420
+    },
+    {
+      "path": "lovable/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "lovable/skills/review-changes/SKILL.md",
+      "sha256": "7855f90ba134118976e6eb38e696adf1bbdf0df3faac0e7c6ed83008053284fc",
+      "mode": 420
+    },
+    {
+      "path": "lovable/skills/scan-project/SKILL.md",
+      "sha256": "dbdbca2b8f62137432776ab0b0c78c232f2737a90473cc59a4c6b20d83b708fb",
       "mode": 420
     },
     {
@@ -215,8 +970,153 @@
       "mode": 420
     },
     {
+      "path": "mcp-registry/README.md",
+      "sha256": "0ad77e6b1bfaccc333ae1ff7c2dee44bee988234f88e967bf06d721806d1b421",
+      "mode": 420
+    },
+    {
+      "path": "mcp-registry/schema/PROVENANCE.md",
+      "sha256": "98592e4369a6b1915f9833b80916ee20a779d279e656ed516e4625387abac54a",
+      "mode": 420
+    },
+    {
+      "path": "mcp-registry/schema/server.schema.json",
+      "sha256": "3fba09590c99f61735d234822279f4223fab9e300c0a81e81c91ab62a4114de0",
+      "mode": 420
+    },
+    {
+      "path": "mcp-registry/server.json",
+      "sha256": "2c313e87412b9ac7c448ec05d41228420abc9ac91cb3961a0d0cce9e37c3c980",
+      "mode": 420
+    },
+    {
       "path": "mcp.json",
-      "sha256": "aff25ae3584d2a614563f17adad93e718fe50596bbd3389e83c372469b115af4",
+      "sha256": "d78d786efc1298ea724c7c8961dbf1d6389661916a9be3d006eeb379be6a59ba",
+      "mode": 420
+    },
+    {
+      "path": "mimo-code/README.md",
+      "sha256": "1929b5ec61e96480c1ea790271f02949580392a0e7a96bda19e7271a2cdd72a7",
+      "mode": 420
+    },
+    {
+      "path": "mimo-code/mimocode.jsonc",
+      "sha256": "e8f2f959eae1e62c9fb6222531ab72b2d0c81073e54b300c70002bc74d523301",
+      "mode": 420
+    },
+    {
+      "path": "mimo-code/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "mimo-code/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "mimo-code/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "mimo-code/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "mimo-code/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "mimo-code/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "mistral-vibe/README.md",
+      "sha256": "8c8e86d52214664a02dfecc6398b4f2a814bddce80eb91bac69dbf3ff3fc68ad",
+      "mode": 420
+    },
+    {
+      "path": "mistral-vibe/config/mcp_servers.toml",
+      "sha256": "a0f5abcbe6cf675784caa5b04a08a9425e0ecde77f118e245f246c56e91788bc",
+      "mode": 420
+    },
+    {
+      "path": "mistral-vibe/skills/fix-and-retest/SKILL.md",
+      "sha256": "f9a58c7033c78bdd5398618e36ae9c91805e51a3b36ea96672c6946576e269aa",
+      "mode": 420
+    },
+    {
+      "path": "mistral-vibe/skills/get-started/SKILL.md",
+      "sha256": "8fb0bf9ed85cd579190002ca9bf4608feb3b119c7ba66fc9c528b8f4e09deebf",
+      "mode": 420
+    },
+    {
+      "path": "mistral-vibe/skills/launch-readiness/SKILL.md",
+      "sha256": "2de44fbdcfb6f2f3b7c0d64c4db5b0407dcc35a4e148032c08ca189528fec4d5",
+      "mode": 420
+    },
+    {
+      "path": "mistral-vibe/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "mistral-vibe/skills/review-changes/SKILL.md",
+      "sha256": "9c668c002ab015d14f4fe9a99bada996a47414163461b3b56a17658b87068ad7",
+      "mode": 420
+    },
+    {
+      "path": "mistral-vibe/skills/scan-project/SKILL.md",
+      "sha256": "2c983767523bb1b5719e8a9df6990bffb849b3c5e1e6326b578fe21b1a8572e7",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/README.md",
+      "sha256": "c31c1e5c48e530d7a9a49711e5a2e22c36f822b9628e8d399998a30ee6f12384",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/mcp-stdio.json",
+      "sha256": "de69ac15682f0ee7a236aa9acb0b193959af4d9e0b57f3f1988be742100ef420",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/mcp.json",
+      "sha256": "33564988cb5841e5f8524a2b598b30f8a2233ad14f86bf48e7f3192c3a7d12e8",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "oh-my-pi/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
       "mode": 420
     },
     {
@@ -231,27 +1131,277 @@
     },
     {
       "path": "openclaw/README.md",
-      "sha256": "d5f4f1fe8a879f2d43dde389c0c570f40bb58096bca66b798d8fdaf2703ed16e",
+      "sha256": "b496fd4eab169281f671b68d211f730a1152bb97f06730d77c81944a2651a004",
       "mode": 420
     },
     {
       "path": "openclaw/SKILL.md",
-      "sha256": "4b75eaa5530f010554f9a14b096c7ff678badbbfdabc8912277e06c87ae8eac4",
+      "sha256": "ea3de6cb686593854bb57c4d7bb76677afa84b57fdcc242da847a0cd73b34100",
+      "mode": 420
+    },
+    {
+      "path": "opencode/README.md",
+      "sha256": "0936f524dda009394803bbfed22a471863fa734707fefe79171e2bfbd00a7ea7",
+      "mode": 420
+    },
+    {
+      "path": "opencode/opencode.json",
+      "sha256": "9a596f80a7f26cada2789f7772f99a2f1a6d6cd60a7acf136f03d13cb2762706",
+      "mode": 420
+    },
+    {
+      "path": "opencode/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "opencode/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "opencode/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "opencode/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "opencode/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "opencode/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "pi/README.md",
+      "sha256": "b6ba07110c8211d0043c4d1d73588b8d0daecc92f7736070efdeb37e06346cd0",
+      "mode": 420
+    },
+    {
+      "path": "pi/mcp.json",
+      "sha256": "7c5d80ad8aa80bb60df4dc3a93a29f386f19cca9a78031b6a6490d35031de1dc",
       "mode": 420
     },
     {
       "path": "plugin.json",
-      "sha256": "d13d9c4bbf6988fcefcdf8ea7829fd67d41eefd2c1876c6696911e7bd3dba7b3",
+      "sha256": "c95e9789b96ab66d5192692344ff0410c5d5ee61ca08486fe4624a1e6e5ad5cd",
+      "mode": 420
+    },
+    {
+      "path": "qoder/README.md",
+      "sha256": "a9eb470c3de5c34088541b053fc3958566aa67706cf4f75b286b6e1c692e4247",
+      "mode": 420
+    },
+    {
+      "path": "qoder/marketplace.json",
+      "sha256": "5d290293a7a75efd54cb838d6cc2f54fd4cc9d2a2ff2b9e42c4feac34ef3ecf5",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/.mcp.json",
+      "sha256": "7ff1585b7618d48a970c6ea07f4b0d36e44cc266fe28cd67eb9b409930720811",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/.qoder-plugin/plugin.json",
+      "sha256": "a99a9da64e2427ddcce445ff63079e7cfef90add7d06e41477c14aa95c20a2ee",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/commands/review-changes.md",
+      "sha256": "ea0ef69f9f44442beb7ff7a594ec7c8ae510c2d30034c7fe251a0c3e19bf7b62",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/commands/scan-project.md",
+      "sha256": "239872b87891879b576b948a708e7dd44784699f895d37f2ab4f0b1c654898c4",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "qoder/plugins/lyrashield/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "qwen/QWEN.md",
+      "sha256": "54aff408933c61339f251ab668d54a26e0a6aeef3922320320c68414df57a0b6",
+      "mode": 420
+    },
+    {
+      "path": "qwen/README.md",
+      "sha256": "0d58bd4804d455953d22663186d4011ce1ead3529b8cd984fad4d775719facb4",
+      "mode": 420
+    },
+    {
+      "path": "qwen/commands/review-changes.md",
+      "sha256": "ea0ef69f9f44442beb7ff7a594ec7c8ae510c2d30034c7fe251a0c3e19bf7b62",
+      "mode": 420
+    },
+    {
+      "path": "qwen/commands/scan-project.md",
+      "sha256": "239872b87891879b576b948a708e7dd44784699f895d37f2ab4f0b1c654898c4",
+      "mode": 420
+    },
+    {
+      "path": "qwen/qwen-extension.json",
+      "sha256": "905292e211ead9d132138aca7122ad071be179c0dea2e88b5bc82261e4a0634b",
+      "mode": 420
+    },
+    {
+      "path": "qwen/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "qwen/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "qwen/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "qwen/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "qwen/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "qwen/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "replit/README.md",
+      "sha256": "0dbea4d77c1e449a113e1876f0b5793b67783981bafa79c3af01842727039217",
+      "mode": 420
+    },
+    {
+      "path": "replit/connection.json",
+      "sha256": "ef36f97abee58bab7a7d20ac10d40eed20f641a896efdbe39ab06a573e0a418a",
+      "mode": 420
+    },
+    {
+      "path": "replit/install-link.txt",
+      "sha256": "aeaffb26dad1ba4a2be9915a2cfbd2d4fcab2e024179e6e57576556c32e6622a",
+      "mode": 420
+    },
+    {
+      "path": "replit/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "replit/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "replit/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "replit/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "replit/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "replit/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
       "mode": 420
     },
     {
       "path": "reviewer-pack/README.md",
-      "sha256": "42b73cf95697315d8ac976dcb6ed8e605540fa7d525006f47ab9e97cb242a19c",
+      "sha256": "2cfb2cfbd9f8d58be7131b7a142351b609fe8c52cbb8cbb62f188ac7ff52aa29",
       "mode": 420
     },
     {
       "path": "reviewer-pack/workflows.json",
-      "sha256": "c3cd33a8f325c6162e6d0b37382509f71377336a4ae0e0e6866f861afd057750",
+      "sha256": "069eb4ec06f81d456d209a8d42f3dead4e1f1c6e2af2ca8b21960ab19554b31e",
+      "mode": 420
+    },
+    {
+      "path": "roo-code/README.md",
+      "sha256": "0fd7d9b5d3f7187619813528cc10154b6c21a557d72996c765bc9b03563901bc",
+      "mode": 420
+    },
+    {
+      "path": "roo-code/mcp.json",
+      "sha256": "f819da88f0e5c972a0cb7be31267c8f798a707c852bc9e799b760e402069b675",
+      "mode": 420
+    },
+    {
+      "path": "roo-code/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "roo-code/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "roo-code/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "roo-code/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "roo-code/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "roo-code/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
       "mode": 420
     },
     {
@@ -261,7 +1411,7 @@
     },
     {
       "path": "scripts/validate.mjs",
-      "sha256": "5b76d7b7b189f00d2fe9c513053d49be59e9017044495dc9072c84dfe51a6f16",
+      "sha256": "51c655e7a1835c672fe1edad4ed35a672e35a96813016e11c7362deb2be481c4",
       "mode": 420
     },
     {
@@ -270,8 +1420,78 @@
       "mode": 420
     },
     {
+      "path": "skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
       "path": "skills/lyrashield/SKILL.md",
-      "sha256": "420d27e313e924f24c0639aa221f463fc341f1474001fdcdffea6e5c389e1804",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "v0/README.md",
+      "sha256": "87b75c8d8be06488ad6d68265c046fed884e399e80316cb2945a81a6630a42f6",
+      "mode": 420
+    },
+    {
+      "path": "v0/connection-details.json",
+      "sha256": "30e3e5ef3a3289fcc2215f87112423f44738d1aa8eba2f088982d3ea87bd2169",
+      "mode": 420
+    },
+    {
+      "path": "v0/skills/fix-and-retest/SKILL.md",
+      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "mode": 420
+    },
+    {
+      "path": "v0/skills/get-started/SKILL.md",
+      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "mode": 420
+    },
+    {
+      "path": "v0/skills/launch-readiness/SKILL.md",
+      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "mode": 420
+    },
+    {
+      "path": "v0/skills/lyrashield/SKILL.md",
+      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "mode": 420
+    },
+    {
+      "path": "v0/skills/review-changes/SKILL.md",
+      "sha256": "7644deef5f327efcb8af5017c7aca982bd90aac886e5782193aa0c21bfa2d085",
+      "mode": 420
+    },
+    {
+      "path": "v0/skills/scan-project/SKILL.md",
+      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "mode": 420
+    },
+    {
+      "path": "v0/vercel-marketplace/application.md",
+      "sha256": "23690987f316c39b8551e7c16d61c2e25d377a0db95207258387f355e2be4956",
       "mode": 420
     },
     {
@@ -281,17 +1501,17 @@
     },
     {
       "path": "zed-extension/Cargo.lock",
-      "sha256": "0f6c13f8c37d9ea31c0b5826b09a51f4bd51bebe7ff673ccbdcdef197d630391",
+      "sha256": "b7b7b44e3dc354cbbe5ff4f849cb2f64806b92927e86aeabbb3b03439cdb59fa",
       "mode": 420
     },
     {
       "path": "zed-extension/Cargo.toml",
-      "sha256": "c4094ea327f6b6dd1baef42c766f212d0d016f42fae842d970a0d364a6241543",
+      "sha256": "6f83cba0f17bbc4048a0010d47f4630b61a3c75377301d517532a5defeb1d97f",
       "mode": 420
     },
     {
       "path": "zed-extension/README.md",
-      "sha256": "27b88eab6ca8528e5cc9b7a89184a0082176ffb7131ec65a08e7e88b5c99a49f",
+      "sha256": "c8d5266e1a2438b368b2a6862ead4160f9809bc2f3b895e4f8c571e1db283c66",
       "mode": 420
     },
     {
@@ -301,12 +1521,12 @@
     },
     {
       "path": "zed-extension/configuration/installation_instructions.md",
-      "sha256": "1b5e328f80e17880ec2eab12dd089cd1b070f019e39551433a655e6a6253bbd1",
+      "sha256": "57a8acb2cc4be22e9ad99d15b216b8c5f3f501562106631aada13561e426e77d",
       "mode": 420
     },
     {
       "path": "zed-extension/extension.toml",
-      "sha256": "30eeeda9fe3e1a722c21bb807876739b39f2613c3f5e8d0f7fceeb76e24128f7",
+      "sha256": "83c92393040eccfda6c05981e09a643538fd1a17bbf47a4942a4eda248cca00c",
       "mode": 420
     },
     {
@@ -321,7 +1541,7 @@
     },
     {
       "path": "zed-extension/src/lib.rs",
-      "sha256": "1c2f6f4263f14024a1fc45ddb2c800bed084a12ba473f8815fdff15e855c722b",
+      "sha256": "b9951cdf5c998cb29180995bcf297716baf83b688f151893aa6ac7e569e4b84c",
       "mode": 420
     }
   ],
@@ -349,26 +1569,63 @@
     "zed-extension",
     "codebuff",
     "gemini-extension",
+    "antigravity",
+    "amp",
+    "opencode",
     "kiro-power",
     "cline",
     "kilo",
     "openclaw",
+    "aider",
+    "augment",
+    "continue",
+    "devin-cli",
+    "devin-desktop",
+    "factory",
+    "goose",
+    "hermes",
+    "jetbrains-ai-assistant",
+    "jetbrains-junie",
+    "lovable",
+    "mcp-registry",
+    "mimo-code",
+    "mistral-vibe",
+    "oh-my-pi",
+    "roo-code",
+    "pi",
+    "qoder",
+    "qwen",
+    "replit",
+    "v0",
     "reviewer-pack",
     "assets",
     "scripts",
     ".github"
   ],
   "artifactVersions": {
-    "gemini": "0.1.30",
-    "zed": "0.1.30",
-    "codebuff": "0.1.30",
-    "openclaw": "0.1.30"
+    "gemini": "0.1.31",
+    "zed": "0.1.31",
+    "codebuff": "0.1.31",
+    "openclaw": "0.1.31"
   },
   "mutatingTools": [
     "lyrashield_scan_target",
     "lyrashield_cancel_scan",
     "lyrashield_create_report",
     "lyrashield_run_pr_scan",
+    "lyrashield_record_fix_proposal",
+    "lyrashield_verify_fix",
+    "lyrashield_upload_scan_attachment",
+    "lyrashield_delete_scan_attachment",
+    "lyrashield_request_fix_pr"
+  ],
+  "geminiAllowedMutatingTools": [
+    "lyrashield_scan_target",
+    "lyrashield_run_pr_scan"
+  ],
+  "geminiExcludedTools": [
+    "lyrashield_cancel_scan",
+    "lyrashield_create_report",
     "lyrashield_record_fix_proposal",
     "lyrashield_verify_fix",
     "lyrashield_upload_scan_attachment",
