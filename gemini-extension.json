@@ -20,15 +20,20 @@
       ],
       "env": {
         "LYRASHIELD_EXTENSION_CRED": "${GEMINI_LYRASHIELD_CRED}"
-      }
+      },
+      "excludeTools": [
+        "lyrashield_cancel_scan",
+        "lyrashield_create_report",
+        "lyrashield_upload_scan_attachment",
+        "lyrashield_delete_scan_attachment",
+        "lyrashield_request_fix_pr"
+      ]
     }
   },
   "contextFileName": "GEMINI.md",
   "excludeTools": [
     "lyrashield_cancel_scan",
     "lyrashield_create_report",
-    "lyrashield_record_fix_proposal",
-    "lyrashield_verify_fix",
     "lyrashield_upload_scan_attachment",
     "lyrashield_delete_scan_attachment",
     "lyrashield_request_fix_pr"
