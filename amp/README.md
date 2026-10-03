@@ -5,7 +5,11 @@ This package has five task-specific Amp skills. Each skill carries an `mcp.json`
 server uses hosted OAuth at `https://app.lyrashieldai.com/api/mcp`; no API key or local process is
 embedded in this package.
 
-## Install after marketplace export
+## Future install recipe — not currently available
+
+This is a future packaging example, not a current customer install command. No reviewed immutable
+release identity is available here; do not replace the placeholders with the mutable preparation
+branch. Use the [current direct MCP guide](https://lyrashieldai.com/docs/integrations/amp) meanwhile.
 
 The package is prepared in the product source. It is not yet confirmed in a released public
 marketplace export. After an immutable export includes `amp/`, clone that exact marketplace
@@ -13,8 +17,7 @@ release to a separate directory. Run `amp skill add` from the project where you 
 installed, and point it at the package checkout:
 
 ```sh
-git clone https://github.com/ecryptoguru/lyrashield-marketplace.git /tmp/lyrashield-marketplace
-git -C /tmp/lyrashield-marketplace checkout <released-tag-or-commit>
+git clone --branch <reviewed-immutable-release-tag> --depth 1 <released-marketplace-url> /tmp/lyrashield-marketplace
 cd /path/to/your/project
 amp skill add /tmp/lyrashield-marketplace/amp
 ```
@@ -40,13 +43,13 @@ workflow. Do not add a project API key or bearer header.
 
 Amp gives directly configured servers precedence over a server of the same name bundled in a
 skill. A direct `lyrashield` connection can therefore keep the MCP tools visible outside the
-on-demand skill. If you want lazy loading, inspect existing personal, workspace, project, and CLI
+on-demand skill. If you want lazy loading, inspect existing personal, workspace, project and CLI
 MCP configuration for a duplicate server before adding this package; change only the duplicate
 entry you own.
 
 The skills preserve LyraShield's authorization and evidence boundaries:
 
-- `get-started` selects one accessible workspace, paginates authorized targets, and stays
+- `get-started` selects one accessible workspace, paginates authorized targets and stays
   read-only.
 - `review-changes` uses the local advisory diff tool by default. A recorded Quick scan happens only
   when explicitly requested.
@@ -58,11 +61,11 @@ The skills preserve LyraShield's authorization and evidence boundaries:
 ## Compatibility evidence and limitations
 
 - Official Amp skills and MCP documentation were checked on 2026-10-01. Amp documents `amp skill
-add <source>`, recursive skill discovery, per-skill `mcp.json`, remote HTTP URLs, and OAuth
+add <source>`, recursive skill discovery, per-skill `mcp.json`, remote HTTP URLs and OAuth
   handling for supported servers.
 - Amp's reviewed docs do not state a minimum client version for local skill `mcp.json` support.
   This package has no authenticated Amp runtime receipt; treat the integration as prepared, not
-  runtime-verified. Confirm skill discovery, OAuth, workspace selection, and a read-only call in
+  runtime-verified. Confirm skill discovery, OAuth, workspace selection and a read-only call in
   the exact Amp CLI/client version before promoting the support claim.
 - This source directory has no independent Amp release number. Pin the immutable marketplace
   release commit and hashes in the channel ledger when export is ready. No marketplace submission

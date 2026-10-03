@@ -1,9 +1,9 @@
 # Marketplace reviewer pack
 
 **State: PREPARATION.** The case set and package metadata are drafted for Agent Plugin
-`0.1.31`. They have not been uploaded, run in a publisher portal, or accepted by a directory.
-The latest published `@lyrashield/agent-plugin` is `0.1.30`; the matching source, package
-and marketplace release remains a separate release decision.
+`0.1.31`. They have not been uploaded, run in a publisher portal or accepted by a directory.
+The published `@lyrashield/agent-plugin` is `0.1.31`; this reviewer pack and matching immutable
+marketplace release remain separate deliverables.
 
 ## OpenAI Codex and ChatGPT plugin directory
 
@@ -49,7 +49,7 @@ Before any OpenAI submission:
    existing country availability. A private dashboard readback has not been performed.
 2. Use the same verified developer identity for the app and accessible public URLs. Confirm that
    the identity is entitled to submit; do not infer it from the public product name.
-3. Confirm the package version and all manifest paths in the exact release ZIP, upload it, and
+3. Confirm the package version and all manifest paths in the exact release ZIP, upload it and
    resolve the automated package and skill findings. The included icon and onboarding skill must
    be in that ZIP.
 4. Complete domain verification and a current successful scan of the production MCP server in
@@ -80,7 +80,7 @@ plugin and connector independently. Do not claim either is submitted or listed f
 ## Cursor Marketplace
 
 Cursor accepts the portable Agent Plugins format as well as Cursor-specific plugins. Test the
-released portable package from `~/.cursor/plugins/local`, reload Cursor, and confirm both skill
+released portable package from `~/.cursor/plugins/local`, reload Cursor and confirm both skill
 and MCP discovery in Customize before an application. Record client version and OS. Enterprise
 local plugin imports can be disabled, and an installed marketplace copy can take precedence over
 a local copy, so record those conditions when relevant.
@@ -96,8 +96,9 @@ or receipt is claimed here.
 The prepared Kiro Power uses the Agent Plugins format. Its README contains current privacy and
 support links, and `plugin.json` includes the package identity, version, keywords and SPDX license.
 Kiro's publisher requirements additionally call for a complete, tested Power, a public GitHub
-repository, and acceptance of publisher terms. The current local candidate is unpublished; the
-private Power dashboard and any existing submission have not been checked. Current client
+repository, and acceptance of publisher terms. The matching immutable Kiro Power export is not yet
+published; the private Power dashboard and any existing submission have not been checked. Current
+client
 discovery and runtime acceptance also remain unverified.
 
 Use the public repository root containing `plugin.json` for a publisher submission after the
@@ -110,7 +111,7 @@ Power discovery plus authenticated read-only-call receipt.
 
 Use a disposable reviewer account containing synthetic projects and findings only. Keep
 credentials in the publisher's secure review form, not in this repository, ZIP, video, screenshots
-or logs. Preserve `DETECTED`, `INCONCLUSIVE`, `INSUFFICIENT_EVIDENCE`, and pending-retest states
+or logs. Preserve `DETECTED`, `INCONCLUSIVE`, `INSUFFICIENT_EVIDENCE` and pending-retest states
 exactly. A passing package check or a directory listing is not evidence that the client loaded the
 plugin or that a scan established security.
 

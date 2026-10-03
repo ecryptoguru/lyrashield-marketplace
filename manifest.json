@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "4822306e24f375800981bf282fd992a9c15dcde8",
+  "sourceCommit": "0f6b9ab866ce0daebfcbe3462f5c8c87b92b4626",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.31"
@@ -51,7 +51,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "e39ca2b51e6e6d8b149156d6ae771842e3a1e0f6035512d1fe3edc9d4dfd9479",
+      "sha256": "dd08d0054e8a1030581b876356da7f662d6c972ef3524f7b4dc52e62a7aea279",
       "mode": 420
     },
     {
@@ -76,12 +76,12 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "6cc08b3ee604b5dbe2656567e12c974578a342fd5aa8fa062c0470fa6f54613b",
+      "sha256": "2f0e054716675d096d31f827c2eba51f2103360e325fdb741ecc271533dafcdc",
       "mode": 420
     },
     {
       "path": "CLIENT-CONTRACTS.md",
-      "sha256": "36b6b5f75250e1d8bb6b08a6ed151304ff3ff5f6709746207644b2fc928f4d1f",
+      "sha256": "35efb6daf8d6345a5ee9848ac7a0590631b639727499a82ca788a9b3bc537185",
       "mode": 420
     },
     {
@@ -96,27 +96,27 @@
     },
     {
       "path": "README.md",
-      "sha256": "09b39bbb2bc0c36a57fa5c64e51a908d5b5d8e1f1daf057c667ad73853bc7ed1",
+      "sha256": "eeda5b3f67c3b84b7678a5ca4a331934b060dbff9a258eba3102796e3ae9391f",
       "mode": 420
     },
     {
       "path": "aider/CONVENTIONS.md",
-      "sha256": "39ade43a4a731a07e7d4deb6bf7927054a60965c0e44b9ecf04fb84b4b5709e6",
+      "sha256": "ae6f51521fee4a2b8e5867dde0f3219dd860494812cbef2e71c5ccf9925907ab",
       "mode": 420
     },
     {
       "path": "aider/README.md",
-      "sha256": "1fae1fd1b82801b9048930eae0a53fde21f8defb99f10b8c45101320a7e598e5",
+      "sha256": "19cd7bb843a9f6a74e1650ab7cddcd8febce7b34d6e1a74313e65b4a8d53ee16",
       "mode": 420
     },
     {
       "path": "amp/README.md",
-      "sha256": "fdec398c453e951bbae05470e291f731a808b772cca611ac02651849fb667287",
+      "sha256": "d4fcd1d813438acd98a233482ba921d1667521b4c69e8d283dd8cc9dba6f2c6b",
       "mode": 420
     },
     {
       "path": "amp/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
@@ -126,7 +126,7 @@
     },
     {
       "path": "amp/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "path": "amp/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "path": "amp/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
@@ -166,7 +166,7 @@
     },
     {
       "path": "antigravity/README.md",
-      "sha256": "ae3cc22487f8316fc440729da88d1f3cccdcdeee381644eede68f881b94a006f",
+      "sha256": "0fcb57fde5615aea6881497674e0d06f34ba418fa734eeb85a616a7b123098af",
       "mode": 420
     },
     {
@@ -181,22 +181,22 @@
     },
     {
       "path": "antigravity/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "antigravity/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "antigravity/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "antigravity/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -206,7 +206,7 @@
     },
     {
       "path": "antigravity/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
@@ -226,7 +226,7 @@
     },
     {
       "path": "augment/README.md",
-      "sha256": "e8f08ccad41f70bf8c5bd9f1d990b47dcd769b3dd052e52f83b47684477b71f0",
+      "sha256": "a23e98863f43aeb233bc0ac5b58d3fca801dbcb25d8705cd94b212e6ef812415",
       "mode": 420
     },
     {
@@ -246,27 +246,27 @@
     },
     {
       "path": "augment/plugins/lyrashield/commands/scan-project.md",
-      "sha256": "15cec381719e024c03cc48fadc7eee02e52ca492fece1d44478b90d9d383542d",
+      "sha256": "60e344dc0c448dbf450a696ae787bf67bca73825e4165fcb22bad5d861f8206d",
       "mode": 420
     },
     {
       "path": "augment/plugins/lyrashield/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "augment/plugins/lyrashield/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "augment/plugins/lyrashield/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "augment/plugins/lyrashield/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -276,12 +276,12 @@
     },
     {
       "path": "augment/plugins/lyrashield/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "cline/README.md",
-      "sha256": "6e951eb7a75fb97b4952f236c4938053a681eed943251e57b45de76dfe9f3d68",
+      "sha256": "0b35e0a03751e9e84bcedf1bc4de8b0ea0c425521cec1018f52390dc4955f98a",
       "mode": 420
     },
     {
@@ -296,22 +296,22 @@
     },
     {
       "path": "cline/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "cline/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "cline/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "cline/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -321,7 +321,7 @@
     },
     {
       "path": "cline/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
@@ -331,7 +331,7 @@
     },
     {
       "path": "codebuff/README.md",
-      "sha256": "5de7d8c0ccbce843954814421e0a1ed638c842dd149e095fb816b7675417432e",
+      "sha256": "6a3ea0df73d5c9c7782615ea43e238b0aa7f1ea3c8926534bf1526d0aae31775",
       "mode": 420
     },
     {
@@ -356,22 +356,22 @@
     },
     {
       "path": "codex-plugin/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "codex-plugin/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "codex-plugin/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "codex-plugin/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -381,12 +381,12 @@
     },
     {
       "path": "codex-plugin/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "continue/README.md",
-      "sha256": "4faa5fb2090d2bb6f9a6d1a0707d4cf5a16705a227372e3d1fc6bd6af9b80757",
+      "sha256": "6b33c24cb99d716279c20e330146b5f1b27666fb6a078ac5a9a232fd1070af8a",
       "mode": 420
     },
     {
@@ -396,17 +396,17 @@
     },
     {
       "path": "continue/prompts/fix-and-retest.md",
-      "sha256": "a6c12634a422a7175c7140b5b123e28393058e8f1128174a6b6262bab5b267a8",
+      "sha256": "b84fd58feb6be8c439788399bad3400db0c530653358ce5eff9c06632ea1b171",
       "mode": 420
     },
     {
       "path": "continue/prompts/get-started.md",
-      "sha256": "128a2d3dbfeb3b5f74b48555a5d7e306b7c76845e0c108b54128f15511e190c8",
+      "sha256": "373440144bae996d67159398e54d07eec43c83757881c9ae7b3b2d888e814938",
       "mode": 420
     },
     {
       "path": "continue/prompts/launch-readiness.md",
-      "sha256": "36ed707ce805e80515ff70568f7bfc448535647f8621c1c0228d3ce83230c789",
+      "sha256": "c77ef4f3057498f9150749af7954b788f8b8fb12d1b6dbbbe15736a119dc39b8",
       "mode": 420
     },
     {
@@ -416,17 +416,17 @@
     },
     {
       "path": "continue/prompts/scan-project.md",
-      "sha256": "ba16918a4397d562f02f712cc1f1541ccf7b0d2c68f66069d1de312cf1174683",
+      "sha256": "c216080d5d819eaed31ab1591130780a4d40dd6b54e53d575d36b6c9f5dbf2da",
       "mode": 420
     },
     {
       "path": "continue/rules/lyrashield.md",
-      "sha256": "921e301f895f90a82d73c2c3d2b290938758932c59826d348d15dc365dbc650f",
+      "sha256": "910d1bccbbf9a1fa05e89fd163b38dca3b45f2806811914527dd2425c733318a",
       "mode": 420
     },
     {
       "path": "devin-cli/README.md",
-      "sha256": "1ff6b8d17e009664326a58151251a532975452df02fc4b0e668e933b7dda3788",
+      "sha256": "9b3f4cd038ac985102cc08a206b52ac5522a992dd2d724b428338f71e3b3316f",
       "mode": 420
     },
     {
@@ -441,22 +441,22 @@
     },
     {
       "path": "devin-cli/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "devin-cli/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "devin-cli/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "devin-cli/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -466,7 +466,7 @@
     },
     {
       "path": "devin-cli/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
@@ -481,22 +481,22 @@
     },
     {
       "path": "devin-desktop/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "devin-desktop/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "devin-desktop/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "devin-desktop/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -506,7 +506,7 @@
     },
     {
       "path": "devin-desktop/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
@@ -516,7 +516,7 @@
     },
     {
       "path": "factory/README.md",
-      "sha256": "5c345980a177511d7e2d0303aadc604a310cd7b4b19b6d982c48676d543d5d1f",
+      "sha256": "700419cb7c526ce90e67c17684fcda80065bb7f00d2476f6d18779a5f503a82e",
       "mode": 420
     },
     {
@@ -531,7 +531,7 @@
     },
     {
       "path": "factory/plugins/lyrashield/commands/scan-project.md",
-      "sha256": "239872b87891879b576b948a708e7dd44784699f895d37f2ab4f0b1c654898c4",
+      "sha256": "a01888b9f4e2df69b6bbdb2314d40eafc4c45e4e042725497d7c3411c4aa5a8c",
       "mode": 420
     },
     {
@@ -541,22 +541,22 @@
     },
     {
       "path": "factory/plugins/lyrashield/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "factory/plugins/lyrashield/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "factory/plugins/lyrashield/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "factory/plugins/lyrashield/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -566,7 +566,7 @@
     },
     {
       "path": "factory/plugins/lyrashield/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
@@ -576,7 +576,7 @@
     },
     {
       "path": "gemini-extension/README.md",
-      "sha256": "c06eb64e43d2e3ec6ffe92c35af964009858343fd1607b4ef56720b89911ff16",
+      "sha256": "09ed6f271ff4dc0ee3c1b8662c12b3c6a048ad87ee95faf915b83f1ca8e478af",
       "mode": 420
     },
     {
@@ -591,7 +591,7 @@
     },
     {
       "path": "gemini-extension/gemini-extension.json",
-      "sha256": "082ea124ac196b4dc34e56ef76bc8f5352eba173700ec0325f082e161f1bbddd",
+      "sha256": "6396c27e94fbb55b475780ec1b56d64cc456860fa730b490a4635c7aab0a57c7",
       "mode": 420
     },
     {
@@ -601,22 +601,22 @@
     },
     {
       "path": "gemini-extension/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "gemini-extension/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "gemini-extension/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "gemini-extension/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -626,12 +626,12 @@
     },
     {
       "path": "gemini-extension/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "gemini-extension.json",
-      "sha256": "082ea124ac196b4dc34e56ef76bc8f5352eba173700ec0325f082e161f1bbddd",
+      "sha256": "6396c27e94fbb55b475780ec1b56d64cc456860fa730b490a4635c7aab0a57c7",
       "mode": 420
     },
     {
@@ -646,22 +646,22 @@
     },
     {
       "path": "goose/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "goose/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "goose/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "goose/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -671,12 +671,12 @@
     },
     {
       "path": "goose/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "hermes/README.md",
-      "sha256": "c6757f12b1a9a0f4d38a19772acd563606088a9c366774a09939209505135a20",
+      "sha256": "66aa2c4a0843c43fea20c462bb8e0976352b6ff6c080b6e6d7fc1731406e7425",
       "mode": 420
     },
     {
@@ -696,22 +696,22 @@
     },
     {
       "path": "hermes/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "hermes/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "hermes/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "hermes/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -721,12 +721,12 @@
     },
     {
       "path": "hermes/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "jetbrains-ai-assistant/README.md",
-      "sha256": "0bbbb96aeebf417ea4d22cbb48f89626abcbccf922673a75ee68902fb3beb609",
+      "sha256": "9f00e63689473c8667f74de57b26dfa3a6343632e946284846664ed5d14993cb",
       "mode": 420
     },
     {
@@ -736,22 +736,22 @@
     },
     {
       "path": "jetbrains-ai-assistant/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "jetbrains-ai-assistant/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "jetbrains-ai-assistant/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "jetbrains-ai-assistant/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -761,12 +761,12 @@
     },
     {
       "path": "jetbrains-ai-assistant/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "jetbrains-junie/README.md",
-      "sha256": "666a4e1447c92d5843817e25f8666b09c4d2e842d8ad60fed5147ddeb74077e9",
+      "sha256": "266810552b072a174265c993299b816db381725ddf8c6cf14729379cbb34d51a",
       "mode": 420
     },
     {
@@ -776,22 +776,22 @@
     },
     {
       "path": "jetbrains-junie/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "jetbrains-junie/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "jetbrains-junie/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "jetbrains-junie/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -801,12 +801,12 @@
     },
     {
       "path": "jetbrains-junie/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "kilo/README.md",
-      "sha256": "2f90500f0080f90fef0b16831cc4776d63910c25c6dcf8185b140f21d950926a",
+      "sha256": "d6da11304d4a48744a8b6ebe18360f57ba27d8e81ca52030361ca64be1e60a20",
       "mode": 420
     },
     {
@@ -821,22 +821,22 @@
     },
     {
       "path": "kilo/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "kilo/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "kilo/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "kilo/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -846,17 +846,17 @@
     },
     {
       "path": "kilo/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "kiro-power/POWER.md",
-      "sha256": "36b65e3d8354c43a3e228ea9eb6bc22d16cfd24f071754f22f8036dfa6efc0a1",
+      "sha256": "298bf6f0cd735e8efd665cf182dd22d2a453a23a693e841e56d0790a7aefb3b0",
       "mode": 420
     },
     {
       "path": "kiro-power/README.md",
-      "sha256": "553079198a0800db9d4cefc4fe289580c24b1adb12d4328cb3bfea8bdc35dd00",
+      "sha256": "837faebd4c9a1fc69cc33f9c3810bca998bf35e9b1590215d4b77cf7bc3b6dcd",
       "mode": 420
     },
     {
@@ -871,22 +871,22 @@
     },
     {
       "path": "kiro-power/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "kiro-power/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "kiro-power/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "kiro-power/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -896,12 +896,12 @@
     },
     {
       "path": "kiro-power/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "lovable/README.md",
-      "sha256": "2c03f6a196881f70692734986054106114a2c07c5dc15a67ac56fd7e7a101f57",
+      "sha256": "fba1df34a5302de0c1fdcd2b41941162b928213364a6f696181653a9b1987821",
       "mode": 420
     },
     {
@@ -911,17 +911,17 @@
     },
     {
       "path": "lovable/imports/fix-and-retest.zip",
-      "sha256": "e1ecff2300b28b800f3fa276dc77f956c9eaab814848e2da16650ed608cb9a28",
+      "sha256": "ba8566e5937afbc756c049fad35b26fb6b30adb7d0969e16d569d4a8ca850099",
       "mode": 420
     },
     {
       "path": "lovable/imports/get-started.zip",
-      "sha256": "362fb577f8d4cdf4859385c32efed8665d7f4f8a3cf19a89937811b2a31decba",
+      "sha256": "8e667a3d9a175238721998f84906f93a682823a0bff684efb88fa5c9579af35d",
       "mode": 420
     },
     {
       "path": "lovable/imports/launch-readiness.zip",
-      "sha256": "4f26fe49022badf43e5801c735743138012b63c307d9638473c00d28fdd1d221",
+      "sha256": "de1e1b7512acf0449346a4d6cede4adc66eb54eed218b6de04289cfaa6bb1cd4",
       "mode": 420
     },
     {
@@ -931,27 +931,27 @@
     },
     {
       "path": "lovable/imports/scan-project.zip",
-      "sha256": "001882a5e7f1dc6026a62232842fb4ede3257577bc5e35c5e0f3af841de5838f",
+      "sha256": "9ee4b338939ff5145d511acbc31984dedf088c158345956125a42711e9a31183",
       "mode": 420
     },
     {
       "path": "lovable/skills/fix-and-retest/SKILL.md",
-      "sha256": "a6096cf08cb5089601dc1bb6b2b19da1bac9f998447021b1423a3ab07eeb2b78",
+      "sha256": "53a45970a92775b51908a929db53b6d135783c13d16565105a11f26de9e28a42",
       "mode": 420
     },
     {
       "path": "lovable/skills/get-started/SKILL.md",
-      "sha256": "aafe7bcbd78cdc78ef0f82395861be2c104c729eaddadfcf3ac239f993ff128b",
+      "sha256": "1002888506ba89ca54d7f90d6dd65f8421e794c496062e6df7c71714b3406b1d",
       "mode": 420
     },
     {
       "path": "lovable/skills/launch-readiness/SKILL.md",
-      "sha256": "c89af3f09c1137242a1d19eaa34e75c4bf4c6240671bd0f83f9cee80923182cd",
+      "sha256": "86f47af83d6f3b8e789f579c64fd03b376b9d9f0b102fe488a71ea8deadc25eb",
       "mode": 420
     },
     {
       "path": "lovable/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -961,7 +961,7 @@
     },
     {
       "path": "lovable/skills/scan-project/SKILL.md",
-      "sha256": "dbdbca2b8f62137432776ab0b0c78c232f2737a90473cc59a4c6b20d83b708fb",
+      "sha256": "aad2d7b9f875f04bea7a408d92ba8c37f6b89146f22b820e61117e2a0607194f",
       "mode": 420
     },
     {
@@ -971,7 +971,7 @@
     },
     {
       "path": "mcp-registry/README.md",
-      "sha256": "0ad77e6b1bfaccc333ae1ff7c2dee44bee988234f88e967bf06d721806d1b421",
+      "sha256": "073860c04126efbed34b4bf3b931fccfc4048aff32441830ff4622a78ca80163",
       "mode": 420
     },
     {
@@ -986,7 +986,7 @@
     },
     {
       "path": "mcp-registry/server.json",
-      "sha256": "2c313e87412b9ac7c448ec05d41228420abc9ac91cb3961a0d0cce9e37c3c980",
+      "sha256": "0402c37be2bcc748a7f4225d00863d4f69db90c6a7fb62eb778aded288fd3335",
       "mode": 420
     },
     {
@@ -996,7 +996,7 @@
     },
     {
       "path": "mimo-code/README.md",
-      "sha256": "1929b5ec61e96480c1ea790271f02949580392a0e7a96bda19e7271a2cdd72a7",
+      "sha256": "45344366485135abf9e12ee5b4223b8760da9fd9162f232042da6d104c8e2997",
       "mode": 420
     },
     {
@@ -1006,22 +1006,22 @@
     },
     {
       "path": "mimo-code/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "mimo-code/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "mimo-code/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "mimo-code/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1031,12 +1031,12 @@
     },
     {
       "path": "mimo-code/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "mistral-vibe/README.md",
-      "sha256": "8c8e86d52214664a02dfecc6398b4f2a814bddce80eb91bac69dbf3ff3fc68ad",
+      "sha256": "b713c01dc0c484f9c7b13d28230a8cd9815a1453d294f475a6ceed3753d4f547",
       "mode": 420
     },
     {
@@ -1046,22 +1046,22 @@
     },
     {
       "path": "mistral-vibe/skills/fix-and-retest/SKILL.md",
-      "sha256": "f9a58c7033c78bdd5398618e36ae9c91805e51a3b36ea96672c6946576e269aa",
+      "sha256": "5a70516230b57921345b555d7224260943222b0195fc680bdeeba441f6d4d0db",
       "mode": 420
     },
     {
       "path": "mistral-vibe/skills/get-started/SKILL.md",
-      "sha256": "8fb0bf9ed85cd579190002ca9bf4608feb3b119c7ba66fc9c528b8f4e09deebf",
+      "sha256": "e75fdf9d7f08395d6244118dec643be0bf7c501a932116996cdec34f29016851",
       "mode": 420
     },
     {
       "path": "mistral-vibe/skills/launch-readiness/SKILL.md",
-      "sha256": "2de44fbdcfb6f2f3b7c0d64c4db5b0407dcc35a4e148032c08ca189528fec4d5",
+      "sha256": "33cb3ffe88a7e90fa8dcae03a23a28d17d5cfe75245b31c21172acd3ed5275b8",
       "mode": 420
     },
     {
       "path": "mistral-vibe/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1071,12 +1071,12 @@
     },
     {
       "path": "mistral-vibe/skills/scan-project/SKILL.md",
-      "sha256": "2c983767523bb1b5719e8a9df6990bffb849b3c5e1e6326b578fe21b1a8572e7",
+      "sha256": "102bf1dcca3de6de8a8fc89c6954f5d2f8e0006c3228c639f3788938936448f6",
       "mode": 420
     },
     {
       "path": "oh-my-pi/README.md",
-      "sha256": "c31c1e5c48e530d7a9a49711e5a2e22c36f822b9628e8d399998a30ee6f12384",
+      "sha256": "5d753a96842dcb8d2d5f2e017e7a67a57650b2d03ab1424ff1db6f6599a35368",
       "mode": 420
     },
     {
@@ -1091,22 +1091,22 @@
     },
     {
       "path": "oh-my-pi/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "oh-my-pi/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "oh-my-pi/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "oh-my-pi/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1116,7 +1116,7 @@
     },
     {
       "path": "oh-my-pi/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
@@ -1131,17 +1131,17 @@
     },
     {
       "path": "openclaw/README.md",
-      "sha256": "b496fd4eab169281f671b68d211f730a1152bb97f06730d77c81944a2651a004",
+      "sha256": "c239acd096a833a0f9a2c03848429ee11a8b3b06593adc99170dfdfdae3e77bb",
       "mode": 420
     },
     {
       "path": "openclaw/SKILL.md",
-      "sha256": "ea3de6cb686593854bb57c4d7bb76677afa84b57fdcc242da847a0cd73b34100",
+      "sha256": "275a261a4745293a900e809f16d0caaa438ea0dee3280fd3dad21395e77ded0e",
       "mode": 420
     },
     {
       "path": "opencode/README.md",
-      "sha256": "0936f524dda009394803bbfed22a471863fa734707fefe79171e2bfbd00a7ea7",
+      "sha256": "85fd555cec36c3b299d5315dd9641a1e009ec9178c05f1be2152265ed2dcae9a",
       "mode": 420
     },
     {
@@ -1151,22 +1151,22 @@
     },
     {
       "path": "opencode/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "opencode/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "opencode/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "opencode/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1176,17 +1176,17 @@
     },
     {
       "path": "opencode/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "pi/README.md",
-      "sha256": "b6ba07110c8211d0043c4d1d73588b8d0daecc92f7736070efdeb37e06346cd0",
+      "sha256": "848120f71f5cfa50330dd819488d985af33cfb318eb7b6bfedce319b2297193d",
       "mode": 420
     },
     {
       "path": "pi/mcp.json",
-      "sha256": "7c5d80ad8aa80bb60df4dc3a93a29f386f19cca9a78031b6a6490d35031de1dc",
+      "sha256": "1809028df4bead1630c2bf9445d5fcd544a99d14bd9dce3535de315246c193f6",
       "mode": 420
     },
     {
@@ -1196,7 +1196,7 @@
     },
     {
       "path": "qoder/README.md",
-      "sha256": "a9eb470c3de5c34088541b053fc3958566aa67706cf4f75b286b6e1c692e4247",
+      "sha256": "c3bdf2293c8e56b935b109472ffc8de5ab2493a5f6bf4a518808e0258d385d93",
       "mode": 420
     },
     {
@@ -1221,27 +1221,27 @@
     },
     {
       "path": "qoder/plugins/lyrashield/commands/scan-project.md",
-      "sha256": "239872b87891879b576b948a708e7dd44784699f895d37f2ab4f0b1c654898c4",
+      "sha256": "a01888b9f4e2df69b6bbdb2314d40eafc4c45e4e042725497d7c3411c4aa5a8c",
       "mode": 420
     },
     {
       "path": "qoder/plugins/lyrashield/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "qoder/plugins/lyrashield/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "qoder/plugins/lyrashield/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "qoder/plugins/lyrashield/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1251,17 +1251,17 @@
     },
     {
       "path": "qoder/plugins/lyrashield/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "qwen/QWEN.md",
-      "sha256": "54aff408933c61339f251ab668d54a26e0a6aeef3922320320c68414df57a0b6",
+      "sha256": "b76bf6ba8d49bf8b0b90d5a2e9dc8db60a3fcef2f85f0de2941a29f9d63db336",
       "mode": 420
     },
     {
       "path": "qwen/README.md",
-      "sha256": "0d58bd4804d455953d22663186d4011ce1ead3529b8cd984fad4d775719facb4",
+      "sha256": "58ff1008e95cfacea300a995d7bd8ee2b0ea1f33c28261920383f184897342ed",
       "mode": 420
     },
     {
@@ -1271,7 +1271,7 @@
     },
     {
       "path": "qwen/commands/scan-project.md",
-      "sha256": "239872b87891879b576b948a708e7dd44784699f895d37f2ab4f0b1c654898c4",
+      "sha256": "a01888b9f4e2df69b6bbdb2314d40eafc4c45e4e042725497d7c3411c4aa5a8c",
       "mode": 420
     },
     {
@@ -1281,22 +1281,22 @@
     },
     {
       "path": "qwen/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "qwen/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "qwen/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "qwen/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1306,12 +1306,12 @@
     },
     {
       "path": "qwen/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "replit/README.md",
-      "sha256": "0dbea4d77c1e449a113e1876f0b5793b67783981bafa79c3af01842727039217",
+      "sha256": "d178de71aca7f9d66875f600e35bbe093fc4905edfd231e85471c38b971b1bdb",
       "mode": 420
     },
     {
@@ -1326,22 +1326,22 @@
     },
     {
       "path": "replit/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "replit/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "replit/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "replit/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1351,22 +1351,22 @@
     },
     {
       "path": "replit/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "reviewer-pack/README.md",
-      "sha256": "2cfb2cfbd9f8d58be7131b7a142351b609fe8c52cbb8cbb62f188ac7ff52aa29",
+      "sha256": "d3db438e9e5ffceb6e034262522e4cf0bb1bf51f0ea94501545a0b5e92075d2e",
       "mode": 420
     },
     {
       "path": "reviewer-pack/workflows.json",
-      "sha256": "069eb4ec06f81d456d209a8d42f3dead4e1f1c6e2af2ca8b21960ab19554b31e",
+      "sha256": "2dc83645730d8df280e63f0ac1a33e8a56facdb99fe9dd81bd0af77e999c983f",
       "mode": 420
     },
     {
       "path": "roo-code/README.md",
-      "sha256": "0fd7d9b5d3f7187619813528cc10154b6c21a557d72996c765bc9b03563901bc",
+      "sha256": "1e49f6a1f6ede337c7830fae54ac72a00cc5d91263a1354dde397eaafe8d1f36",
       "mode": 420
     },
     {
@@ -1376,22 +1376,22 @@
     },
     {
       "path": "roo-code/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "roo-code/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "roo-code/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "roo-code/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1401,42 +1401,42 @@
     },
     {
       "path": "roo-code/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "scripts/tests/verify-published-mcp.fixtures.mjs",
-      "sha256": "4b3375d62485dccfd9b47f41fa73aa4df3fb9ce224454a1d34b9ff49d36e4ed3",
+      "sha256": "edfd1b3929f8b5c08b8cbe5524f46ec550e0f02929a420a36713c6633e9fa5ed",
       "mode": 420
     },
     {
       "path": "scripts/validate.mjs",
-      "sha256": "51c655e7a1835c672fe1edad4ed35a672e35a96813016e11c7362deb2be481c4",
+      "sha256": "8607b6b21a707d3990355cc556fbe2f4abe0db71d061625a6d297c2b2b73513c",
       "mode": 420
     },
     {
       "path": "scripts/verify-published-mcp.mjs",
-      "sha256": "0d68efe63649b4a7dfe849dfadaf50e38fa7d10da9789c24cf2c65c9345c2eaf",
+      "sha256": "5265085382d7053569c1447b1f9b840d52bfccc90eeb80ffb8f9f8c1be5a6e28",
       "mode": 420
     },
     {
       "path": "skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1446,12 +1446,12 @@
     },
     {
       "path": "skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "v0/README.md",
-      "sha256": "87b75c8d8be06488ad6d68265c046fed884e399e80316cb2945a81a6630a42f6",
+      "sha256": "df96c889112870151e57ccc459d5697b2808744e7cde943d77d571848699de69",
       "mode": 420
     },
     {
@@ -1461,22 +1461,22 @@
     },
     {
       "path": "v0/skills/fix-and-retest/SKILL.md",
-      "sha256": "d8e66ff93439491b4f65bc4b5acc7bdb93fe0a5a787c06ebcab419495964bb5b",
+      "sha256": "581db86dbf45eb5e54203ae4b7f0ad4c3b436684d3fedf202a1b33f5a2b70345",
       "mode": 420
     },
     {
       "path": "v0/skills/get-started/SKILL.md",
-      "sha256": "76b3f4910d5e7e199e0344c070220f801850e3c4d8b781f0e87d8727ec664684",
+      "sha256": "5cc591f77545b84d4fea15f6bfabf0d865c16f6043f67faa1dd55ff443aa1772",
       "mode": 420
     },
     {
       "path": "v0/skills/launch-readiness/SKILL.md",
-      "sha256": "9f7b0ec2d691125e92f0f965f5e56ff6ff7b483142ef51fd0493e96111367cd2",
+      "sha256": "099e4a371a2e0af9d0a10a9774c7a468c048a37273476a18da1c28e5bea51d06",
       "mode": 420
     },
     {
       "path": "v0/skills/lyrashield/SKILL.md",
-      "sha256": "0ae8af01a64c75eee5d48d6086431ac65c367675b90d38de3c1716abe8b5001e",
+      "sha256": "ff88886cf822c80fb6b2b68b1828b74a5ec497aef3008445bf213666d8288497",
       "mode": 420
     },
     {
@@ -1486,12 +1486,12 @@
     },
     {
       "path": "v0/skills/scan-project/SKILL.md",
-      "sha256": "d626485398456c9bed863962e0c782972279208c737674fda37f76c49d7db825",
+      "sha256": "61fc7c01b4544dbe8a4ef21a3ffe570e378bd60026ed53a07316c04b07f40661",
       "mode": 420
     },
     {
       "path": "v0/vercel-marketplace/application.md",
-      "sha256": "23690987f316c39b8551e7c16d61c2e25d377a0db95207258387f355e2be4956",
+      "sha256": "6d7854da6a59b530c3256e91f3d318999f48c162a81c88154446e96290716241",
       "mode": 420
     },
     {
@@ -1511,7 +1511,7 @@
     },
     {
       "path": "zed-extension/README.md",
-      "sha256": "c8d5266e1a2438b368b2a6862ead4160f9809bc2f3b895e4f8c571e1db283c66",
+      "sha256": "bc09590bcb69ca1e8fc0e97e997dce6943f029a57235a364cf96c178aae34933",
       "mode": 420
     },
     {
@@ -1621,13 +1621,13 @@
   ],
   "geminiAllowedMutatingTools": [
     "lyrashield_scan_target",
-    "lyrashield_run_pr_scan"
+    "lyrashield_run_pr_scan",
+    "lyrashield_record_fix_proposal",
+    "lyrashield_verify_fix"
   ],
   "geminiExcludedTools": [
     "lyrashield_cancel_scan",
     "lyrashield_create_report",
-    "lyrashield_record_fix_proposal",
-    "lyrashield_verify_fix",
     "lyrashield_upload_scan_attachment",
     "lyrashield_delete_scan_attachment",
     "lyrashield_request_fix_pr"
