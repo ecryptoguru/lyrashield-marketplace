@@ -1,14 +1,15 @@
 # LyraShield AI marketplace release source
 
 PREPARATION ONLY: npm Agent Plugin `0.1.31`, MCP `0.2.12` and CLI `0.2.14` are published.
-This source export has not yet been regenerated from the final merged product revision and tagged
-as a matching immutable marketplace release. Do not treat a package publication or mutable branch
-as proof of a marketplace listing or authenticated client acceptance. Channel-specific listing
-versions and review states may lag this source.
+This export is generated from product main `86537799e615fb3c07376106b315393e81d7ae9d` and passes
+release-ready validation at marketplace main `0f047403b9dda02e8e129f7aff566fbf844bf528`. It remains
+an untagged release candidate; the latest matching immutable marketplace release is `v0.1.29`.
+Do not treat a package publication or mutable branch as proof of a matching marketplace listing or
+authenticated client acceptance. Channel-specific listing versions and review states may lag this source.
 
-## Source and publication readback — 2026-10-02
+## Source and publication readback — 2026-10-03
 
-The previously exported product source is `4822306e24f375800981bf282fd992a9c15dcde8`. Public marketplace `main` is commit `8cb880dbaee73f2c6e71d096e4b75db87f29c32a`, regenerated from that product revision; a fresh clean export matched its tracked artifact bytes. That export predates the current product release and is not an immutable matching marketplace release.
+Marketplace `main` is `0f047403b9dda02e8e129f7aff566fbf844bf528`; its `manifest.json` binds the export to product main `86537799e615fb3c07376106b315393e81d7ae9d` and marks it `release-candidate`. Validation run [37150153435](https://github.com/ecryptoguru/lyrashield-marketplace/actions/runs/37150153435) passed 46 published-MCP fixtures, release-ready validation of 55 generated artifacts, formatting, the Zed WASI build and secret scanning. The validated export has not been tagged as an immutable marketplace release.
 
 Current npm latest versions are CLI `0.2.14`, MCP `0.2.12` and Agent Plugin `0.1.31`. The published MCP package exposes `mcpName: io.github.ecryptoguru/lyrashield-ai`; package integrity and consumer install readbacks passed. The latest immutable marketplace GitHub Release remains `v0.1.29` (2026-09-25); its Kiro MCP shim pins `@lyrashield/mcp@0.2.9`. No matching marketplace release for the current npm packages has been read back.
 
