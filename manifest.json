@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "86537799e615fb3c07376106b315393e81d7ae9d",
+  "sourceCommit": "d84ecb43f1e2964b89d1f4006eccf333c778c4a5",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.31"
@@ -46,12 +46,12 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "sha256": "7cbb76aa31bcf40712443ba926a688fc3963a0433b3550b8700862b5fd278d3d",
+      "sha256": "43dd2d6f441ea6399562a9bf851e5c0c614116972ffbfb2efe0c59e2fef52d8d",
       "mode": 420
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "dd08d0054e8a1030581b876356da7f662d6c972ef3524f7b4dc52e62a7aea279",
+      "sha256": "4b99bbaccc77793a7da7514fd0702cf0d4967b6ec18e70ac86285aa7106c34cc",
       "mode": 420
     },
     {
@@ -96,7 +96,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "707b006eefd86daab37958431f55a5fbe1998ab6c817758e584c8d8d430b7ee4",
+      "sha256": "8cc5f9427ca3e080e2a17a70f03851dffe6472587e7092d085aff8a90d8d3bc6",
       "mode": 420
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "path": "aider/README.md",
-      "sha256": "19cd7bb843a9f6a74e1650ab7cddcd8febce7b34d6e1a74313e65b4a8d53ee16",
+      "sha256": "5e6406a1c87973ad72467734532a3a54e18961071a7950b821e961d83f4954e8",
       "mode": 420
     },
     {
@@ -971,7 +971,7 @@
     },
     {
       "path": "mcp-registry/README.md",
-      "sha256": "073860c04126efbed34b4bf3b931fccfc4048aff32441830ff4622a78ca80163",
+      "sha256": "6f990654361db36fc0b88bd33be7546a1154aa18cd9bde2f8fd05caf0bff7a32",
       "mode": 420
     },
     {

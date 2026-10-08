@@ -1,19 +1,15 @@
 # LyraShield AI marketplace release source
 
 PREPARATION ONLY: npm Agent Plugin `0.1.31`, MCP `0.2.12` and CLI `0.2.14` are published.
-This export is generated from product main `86537799e615fb3c07376106b315393e81d7ae9d` and passes
-release-ready validation at marketplace main `0f047403b9dda02e8e129f7aff566fbf844bf528`. It remains
-an untagged release candidate; the latest matching immutable marketplace release is `v0.1.29`.
-Do not treat a package publication or mutable branch as proof of a matching marketplace listing or
-authenticated client acceptance. Channel-specific listing versions and review states may lag this source.
+This source export has not yet been regenerated from the final merged product revision and tagged
+as a matching immutable marketplace release. Do not treat a package publication or mutable branch
+as proof of a marketplace listing or authenticated client acceptance. Channel-specific listing
+versions and review states may lag this source.
 
-## Source and publication readback — 2026-10-03
-
-Marketplace `main` is `0f047403b9dda02e8e129f7aff566fbf844bf528`; its `manifest.json` binds the export to product main `86537799e615fb3c07376106b315393e81d7ae9d` and marks it `release-candidate`. Validation run [37150153435](https://github.com/ecryptoguru/lyrashield-marketplace/actions/runs/37150153435) passed 46 published-MCP fixtures, release-ready validation of 55 generated artifacts, formatting, the Zed WASI build and secret scanning. The validated export has not been tagged as an immutable marketplace release.
-
-Current npm latest versions are CLI `0.2.14`, MCP `0.2.12` and Agent Plugin `0.1.31`. The published MCP package exposes `mcpName: io.github.ecryptoguru/lyrashield-ai`; package integrity and consumer install readbacks passed. The latest immutable marketplace GitHub Release remains `v0.1.29` (2026-09-25); its Kiro MCP shim pins `@lyrashield/mcp@0.2.9`. No matching marketplace release for the current npm packages has been read back.
-
-The prepared official MCP Registry package has no public listing: the exact identity readback returned HTTP 404 and public search returned no LyraShield entry on 2026-10-02. Offline `--release-ready` validation and the official `mcp-publisher validate` pass against the published MCP package. Authenticated publisher login, submission and public version readback remain pending. Package/export validation and public branch synchronization do not establish immutable marketplace availability or authenticated client-runtime acceptance.
+Point-in-time export status belongs in `manifest.json`, which records the exact source
+commit and publication state for the revision actually shipped. Do not add a dated
+status or readback section here: it would name the export's own parent revision and go
+stale the moment this file merges.
 
 ## Current customer setup
 
@@ -42,7 +38,7 @@ authorized target read. Discovery, OAuth authentication and successful service c
 checks. If consent expires, repeat CLI login and restart the client.
 
 GitHub Copilot Cloud Agent is a separate read-only surface. Follow its
-[prepared configuration guide](./github-copilot-cloud-agent/README.md) for the current
+[prepared configuration guide](https://lyrashieldai.com/docs/integrations/github-copilot-cloud-agent) for the current
 read-only API-key/MCP configuration and explicit tool allowlist. Skill-copy steps are withheld
 until a dedicated read-only workflow bundle passes tool-allowlist and client-runtime review; do not
 copy skills from this branch. Its API key belongs in the private Agents
@@ -82,7 +78,7 @@ artifacts. The recorded-scan and retest skills require the explicit `idempotency
 `0.2.12`; do not release those workflows against an older stdio server.
 
 The export includes native artifacts from each supported client wave. Listing applications remain
-separate; the [channel ledger](./channels.md) records the verified intake route, package identity,
+separate; the [channel ledger](https://github.com/ecryptoguru/lyrashield-ai/blob/main/docs/marketplace/channels.md) records the verified intake route, package identity,
 public state and remaining evidence for each one. The Gemini repository must additionally carry
 the `gemini-cli-extension` topic.
 
@@ -105,6 +101,6 @@ marketplace program.
 ## Submission tracking
 
 Public channel states were last checked on 2026-10-01. Private publisher dashboards remain
-`UNKNOWN` unless there is a current authenticated readback. See the [distribution channel ledger](./channels.md)
+`UNKNOWN` unless there is a current authenticated readback. See the [distribution channel ledger](https://github.com/ecryptoguru/lyrashield-ai/blob/main/docs/marketplace/channels.md)
 for the current public links, versions, evidence and next step for each channel. Directory status
 does not establish client compatibility.
