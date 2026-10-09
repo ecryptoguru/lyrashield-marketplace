@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "b1fae88a1eb6f80648fb177f6e2429b50e804fd3",
+  "sourceCommit": "211e6d929663584c635dc1b4202f5606847ca177",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.31"
@@ -51,7 +51,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "4b99bbaccc77793a7da7514fd0702cf0d4967b6ec18e70ac86285aa7106c34cc",
+      "sha256": "b1f3855eb641e69a865f390bdeb7bd4a3b3b1672c4a246cac338fd079fc62077",
       "mode": 420
     },
     {
