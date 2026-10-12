@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "b81852c785264ecb31ba2a7e4000592290e923a9",
+  "sourceCommit": "f82083946457074a6325a1289a927484abd5712c",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.31"
@@ -336,7 +336,7 @@
     },
     {
       "path": "codebuff/lyrashield-review.ts",
-      "sha256": "24a7c1ba7c99c4f3a81bac7a1382c84115086e090a84f3cc968b9c040e77c553",
+      "sha256": "b502ed0596dd1b29396b85961ecd6e582c3b199ab790868ed6cbdd5b7aa429e4",
       "mode": 420
     },
     {
