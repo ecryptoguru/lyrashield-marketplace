@@ -63,7 +63,7 @@ jobs:
 
       - name: Cache Zed WASI build
         if: steps.zed.outputs.changed == 'true'
-        uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2
+        uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2
         with:
           # A stable shared key, not the per-job default, so release.yml restores
           # the build this job already paid for instead of compiling it again.
