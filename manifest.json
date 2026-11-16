@@ -4,13 +4,13 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "7a6f02563e7926ffd143e8d9e66fb2d95ec2e675",
+  "sourceCommit": "88db5b8a85e8152a3c1d4731d52395a599d0c541",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.32"
   },
   "publication": {
-    "status": "release-candidate",
+    "status": "unpublished",
     "sourceClean": true
   },
   "files": [
@@ -46,7 +46,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "sha256": "ac38689eb6ac1bd5f5b3f2da4ac884c085edb0c385798261e486dc1f0e59ae60",
+      "sha256": "b741fe76a7df3b09f05bfc2fe658f2e4e08d7ef5895e34d5f56cb320c5ac7cf5",
       "mode": 420
     },
     {
