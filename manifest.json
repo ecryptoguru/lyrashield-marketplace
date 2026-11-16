@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "493d6eae5947605bcf932fb395ef2bf8ffe3caaa",
+  "sourceCommit": "74b859ea2f46d70ae8337fe87ccd07f34c18d72c",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.32"
@@ -1501,7 +1501,7 @@
     },
     {
       "path": "zed-extension/Cargo.lock",
-      "sha256": "b7b7b44e3dc354cbbe5ff4f849cb2f64806b92927e86aeabbb3b03439cdb59fa",
+      "sha256": "93e36424148ec5c49f22339892e2df9e5153e2e62622c0c467fad96c13dd042a",
       "mode": 420
     },
     {
