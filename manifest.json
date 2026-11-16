@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "9983264b062763dd0995b5161d1e598b0755e3d7",
+  "sourceCommit": "dceaa28a4be635c12707a7c9ae39059dec0b12c0",
   "generator": {
     "package": "@lyrashield/agent-plugin",
     "version": "0.1.32"
@@ -76,12 +76,12 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "989d714fba8bcfef8284471b5ce3a2c9d448d2c6462df10fe0fe96c226512c09",
+      "sha256": "71daf7b6771fb65902e4a1b66a4b037a0b129d074d6c8cd40afb7bca609022d4",
       "mode": 420
     },
     {
       "path": "CLIENT-CONTRACTS.md",
-      "sha256": "718a3ce8d9ed728a3e17e0e8a0306daa0bf2efd42050a3827d5bfbcc8d353549",
+      "sha256": "7f82ae2e9e303480132eaaddc549299ad4e0f721de0c1d71f40f38da045557c2",
       "mode": 420
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "path": "aider/README.md",
-      "sha256": "6d231d8dadaad6c7b210de776f51485176eabeb685cf3e96a5ecdb6f7ac0c60b",
+      "sha256": "41d116f77e87b634e39c0371004c84e26f23bdff67627af115a17cb0d6de5843",
       "mode": 420
     },
     {
@@ -576,7 +576,7 @@
     },
     {
       "path": "gemini-extension/README.md",
-      "sha256": "6ced0d848bf9aa0ee94e72802609f419b992987e1caf6e045f811baaa87087e5",
+      "sha256": "f2bef58ee1961ce4665361a21f636ee754538acf69ea89622e087ef95da74361",
       "mode": 420
     },
     {
@@ -856,7 +856,7 @@
     },
     {
       "path": "kiro-power/README.md",
-      "sha256": "8fdb8235a019a7502e77d84212dc800fb6d61ab261ab4d041b70739ca2678f97",
+      "sha256": "3548221c17a05ed9635c1eb9dd86471b86b6a536c5fcebf2aa0f3192af0588e8",
       "mode": 420
     },
     {
@@ -1181,7 +1181,7 @@
     },
     {
       "path": "pi/README.md",
-      "sha256": "138a5e6c62652e2d5f9564d8d16833beae326f87cffd14c586a184e1548a9e98",
+      "sha256": "ded3affe7224a4b67324b821b42ffea72d1b124590dff26f6740759464e764c2",
       "mode": 420
     },
     {
@@ -1511,7 +1511,7 @@
     },
     {
       "path": "zed-extension/README.md",
-      "sha256": "99f5d15e2942e69a15b19622bc4c43ea0656a3f46a2397137edc49a1dd0a630e",
+      "sha256": "0c6c204ca65c9217e9702689451a30e639c2b16319b0e3aba66449ff071e7005",
       "mode": 420
     },
     {
