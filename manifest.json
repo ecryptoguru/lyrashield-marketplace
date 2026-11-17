@@ -1,42 +1,42 @@
 {
   "name": "lyrashield",
-  "version": "0.1.32",
+  "version": "0.1.33",
   "license": "Apache-2.0",
   "source": "@lyrashield/agent-plugin",
   "manifestSchemaVersion": "marketplace-export/2",
-  "sourceCommit": "b462ff4370f84ba53036c71ea78702145a4133f4",
+  "sourceCommit": "d5807da10885416c65fdc141b3c3a6af271a84d7",
   "generator": {
     "package": "@lyrashield/agent-plugin",
-    "version": "0.1.32"
+    "version": "0.1.33"
   },
   "publication": {
-    "status": "unpublished",
+    "status": "release-candidate",
     "sourceClean": true
   },
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
-      "sha256": "818eebde46a7f2584466351c310a716650bac5a60109a0c8eeec8d2e77b23656",
+      "sha256": "92f862218de1efb8954d393477287b0a46d5b8f6d4937f313cfc15ca4fcffd1a",
       "mode": 420
     },
     {
       "path": ".claude-plugin/marketplace.json",
-      "sha256": "efdc15b5635d97abd2a922c3535308638d406dfa1298199750a7cb964efe9e06",
+      "sha256": "12b2a30fc8192eea73d189ac058f88bfe9b4d8e954693aa5a3603369a8e86238",
       "mode": 420
     },
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "51ac6bb62de7f62ccef2fad1a330ae320025b32409782b51718689c9626c9206",
+      "sha256": "c6266b4ac59c7bca8a29014f34f05392486a971ef99bb75f149e38a5998bd213",
       "mode": 420
     },
     {
       "path": ".codex-plugin/plugin.json",
-      "sha256": "28c2e59730b6cb77b43812692206df5ba146c7a5c02fd7be3890d4822fede327",
+      "sha256": "03c2c6a712ded8a95a7d5a677c9ee0708ce98ad2c674610319ede56bd9ca984e",
       "mode": 420
     },
     {
       "path": ".cursor-plugin/plugin.json",
-      "sha256": "021af5dce3bcd9a2a34d953d63aa76a61279d6e3d91d5fc86cd1e4db922cc07f",
+      "sha256": "115b31b2ae25f89ef4f3886f6ab7b3c5093dc65499ca1b791c887c28124a7417",
       "mode": 420
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "path": ".kiro-plugin/plugin.json",
-      "sha256": "d2aa80831101559dc5dd998c096098c20f1572c07976efb7517b2c9ed6349625",
+      "sha256": "82eb248ff08f93fe39a020d7ece617dc417efdf00450c4a8479a9f1baf2b4270",
       "mode": 420
     },
     {
@@ -71,12 +71,12 @@
     },
     {
       "path": ".mcp.kiro.json",
-      "sha256": "a7a13f2c5a5ec6b75cba5f89e5a2998f22a73069e341b0a5511aebced08c0552",
+      "sha256": "388f8734b2e651b4404451404ee92a0193d4b003a406ea896b0a7c43286fea73",
       "mode": 420
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "71daf7b6771fb65902e4a1b66a4b037a0b129d074d6c8cd40afb7bca609022d4",
+      "sha256": "d89805faac45138c6595e88eb1cab86ec5c697d2f7f94eb476ffb81601b94b41",
       "mode": 420
     },
     {
@@ -96,7 +96,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "b91eba5177b8e5aaa9b48f677819df1ebdb2168a06c04b8c99a3e997fc22c4ba",
+      "sha256": "a66d6d95e85955ef91453394e5ec56f27b0143d07dc668da86588958b32cbc88",
       "mode": 420
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "path": "aider/README.md",
-      "sha256": "41d116f77e87b634e39c0371004c84e26f23bdff67627af115a17cb0d6de5843",
+      "sha256": "730b8150b008851dfc413f1d6f47db98161448c4ab1805ac4ed73be18a5dbfc4",
       "mode": 420
     },
     {
@@ -331,12 +331,12 @@
     },
     {
       "path": "codebuff/README.md",
-      "sha256": "2cf8e2a6dafb7db36f025635f14919027535bfc9060f8c3ec463694f9a70df1a",
+      "sha256": "8b126abc3b0cc91fbe4cb15f214dac97eb1231fa5484fa25c5bdfeef4187a99b",
       "mode": 420
     },
     {
       "path": "codebuff/lyrashield-review.ts",
-      "sha256": "487ec06efadb9be79142e4645fdd98785aa91844dfdebc9c140116d34a865557",
+      "sha256": "d31a2a16c3ff768970a6dc3cd3e1a1076799a1cc5188225328c4268a739eaea2",
       "mode": 420
     },
     {
@@ -346,7 +346,7 @@
     },
     {
       "path": "codex-plugin/.codex-plugin/plugin.json",
-      "sha256": "31a7e88a5a9e8be069beda11805e0dc8403c62460f78940c2d7bba1e82b87e2d",
+      "sha256": "2ae42c5d5d6e3a2b94694fe5a64efc509f1bcc6d3e040fb7d375929e7c234548",
       "mode": 420
     },
     {
@@ -386,12 +386,12 @@
     },
     {
       "path": "continue/README.md",
-      "sha256": "5126d6e77e5bb8967aeb4a17c529b4fd99d098f8b5876fa10a7e0701fb99a81f",
+      "sha256": "1d9741f23b3fd86a12b82635bebdc9af04f1a37d26bc5e9e8af31d4483e8f549",
       "mode": 420
     },
     {
       "path": "continue/mcpServers/lyrashield.yaml",
-      "sha256": "c9705d78d909f62ae4eda534247fb70d226d888b0fb2671f1dd85e6186d945be",
+      "sha256": "4e392b31e3a6ab0814ad1c9ee54f755cc93fd5c24f9b7a01d68c13c96a68e4e5",
       "mode": 420
     },
     {
@@ -426,7 +426,7 @@
     },
     {
       "path": "devin-cli/README.md",
-      "sha256": "ddcc60eb577c03594a82db0ceafadf0eb39635e05bb09247df1b46faa01ab799",
+      "sha256": "7f7227ac7f0cd9f6a51a6ab3f9ae977d85379b104d790eadf7c999372e7bf113",
       "mode": 420
     },
     {
@@ -436,7 +436,7 @@
     },
     {
       "path": "devin-cli/plugin/plugin.json",
-      "sha256": "803882ce6b1d75ebfe8029bce8b314832294059055a1e529e843fe066a58acd9",
+      "sha256": "f57ab3627aea9d9f5831efd58525e7e02523bbe000e4c10774140003054f0b76",
       "mode": 420
     },
     {
@@ -576,7 +576,7 @@
     },
     {
       "path": "gemini-extension/README.md",
-      "sha256": "f2bef58ee1961ce4665361a21f636ee754538acf69ea89622e087ef95da74361",
+      "sha256": "2058e7744dc0a80e51a25d6c81626ac1f09e52cab25fede66739d2ce8876c9f9",
       "mode": 420
     },
     {
@@ -591,7 +591,7 @@
     },
     {
       "path": "gemini-extension/gemini-extension.json",
-      "sha256": "34c911b299d67cbf605426cf2d757f1b2e1c001dfda25aa788d312db05003e98",
+      "sha256": "dc563ac279902fe93c2ff306cd33a6396883680aa7437d168ec4cef10b4fcf1e",
       "mode": 420
     },
     {
@@ -631,7 +631,7 @@
     },
     {
       "path": "gemini-extension.json",
-      "sha256": "34c911b299d67cbf605426cf2d757f1b2e1c001dfda25aa788d312db05003e98",
+      "sha256": "dc563ac279902fe93c2ff306cd33a6396883680aa7437d168ec4cef10b4fcf1e",
       "mode": 420
     },
     {
@@ -676,7 +676,7 @@
     },
     {
       "path": "hermes/README.md",
-      "sha256": "4965573901eb6d2d1b295cc6880197c23c9b34c025c863ece305125b304eb881",
+      "sha256": "5b772679b9f1807d222ebc370b789b7a7aa0bb2bb7f3b9b6e7877e37d9faa4e4",
       "mode": 420
     },
     {
@@ -686,12 +686,12 @@
     },
     {
       "path": "hermes/plugin/mcp.json",
-      "sha256": "ac2f267ea4a05898742b1a9db2c0d501a9ce5c3eea0d44af535a08096c59d863",
+      "sha256": "f4f469a4d8d6c591f63a459548ecf4f8985db71d762349a9fdcd877d894f7e1c",
       "mode": 420
     },
     {
       "path": "hermes/plugin/plugin.json",
-      "sha256": "803882ce6b1d75ebfe8029bce8b314832294059055a1e529e843fe066a58acd9",
+      "sha256": "f57ab3627aea9d9f5831efd58525e7e02523bbe000e4c10774140003054f0b76",
       "mode": 420
     },
     {
@@ -726,12 +726,12 @@
     },
     {
       "path": "jetbrains-ai-assistant/README.md",
-      "sha256": "8bb9020a5e7dbf73ebb4efbab2eb56c365adf2e6de2ea6e0e7b31654a33d101a",
+      "sha256": "b6b3454ba60ab33fc8631d2629b2eb5596717cb12ed566c28668d6c4142402d1",
       "mode": 420
     },
     {
       "path": "jetbrains-ai-assistant/mcp.json",
-      "sha256": "96fed5c5d27ba8c8a4a442b88220487213a36a8f86e73b52b229c9f211aaa08b",
+      "sha256": "5baaadf8f15d7b275894c7b5bd2023ab66e751f1ee2637f38bb084b465a6997f",
       "mode": 420
     },
     {
@@ -766,12 +766,12 @@
     },
     {
       "path": "jetbrains-junie/README.md",
-      "sha256": "35fef6f1001c8cc521e2b130b7a01de1c0ad54e500ec1ee61b7080f0694c7145",
+      "sha256": "d80f6217e58fd9b53aeae225b302bb091dfdc25395b280e52f2b65022db59e99",
       "mode": 420
     },
     {
       "path": "jetbrains-junie/mcp.json",
-      "sha256": "96fed5c5d27ba8c8a4a442b88220487213a36a8f86e73b52b229c9f211aaa08b",
+      "sha256": "5baaadf8f15d7b275894c7b5bd2023ab66e751f1ee2637f38bb084b465a6997f",
       "mode": 420
     },
     {
@@ -816,7 +816,7 @@
     },
     {
       "path": "kilo/mcps/lyrashield/MCP.yaml",
-      "sha256": "3a0b6d9133eb431ace4687f62dc5efa9d3bcf65e969c420e944bef2235f916f2",
+      "sha256": "70f0c7f969c43e13fe8744ac4d10a60485e1f9610041d281a2601fae6aacd291",
       "mode": 420
     },
     {
@@ -856,7 +856,7 @@
     },
     {
       "path": "kiro-power/README.md",
-      "sha256": "3548221c17a05ed9635c1eb9dd86471b86b6a536c5fcebf2aa0f3192af0588e8",
+      "sha256": "5d55ec53ea8188cea02d7df713b2d7c73b8253410528800d6ad0e675f94e75c5",
       "mode": 420
     },
     {
@@ -866,7 +866,7 @@
     },
     {
       "path": "kiro-power/plugin.json",
-      "sha256": "803882ce6b1d75ebfe8029bce8b314832294059055a1e529e843fe066a58acd9",
+      "sha256": "f57ab3627aea9d9f5831efd58525e7e02523bbe000e4c10774140003054f0b76",
       "mode": 420
     },
     {
@@ -971,7 +971,7 @@
     },
     {
       "path": "mcp-registry/README.md",
-      "sha256": "4ad7f0fedd1c0c24dd2bf574e1a8dd6f38dfb5d3395d79c9feda304e1a79c232",
+      "sha256": "e7189bc691bfb5b289ef8f9b85981b3c00314fd4b3d4e3fe2021f4d06fab34ff",
       "mode": 420
     },
     {
@@ -986,7 +986,7 @@
     },
     {
       "path": "mcp-registry/server.json",
-      "sha256": "01db4ee636e04aa23bf578ef9896ccd6ee95dcdb71dbde9b5219055094c0b5ba",
+      "sha256": "1707f3f0caad228d2a4fa910732e1b927b850934d3e58753d18613c8004eb23c",
       "mode": 420
     },
     {
@@ -996,12 +996,12 @@
     },
     {
       "path": "mimo-code/README.md",
-      "sha256": "53787d10edee62f0c4dc9fae566b3257098d70c3a39ff832f94ef81acbb5ada7",
+      "sha256": "e3423e0bec0280941402356e55d8d9e17e4222e9c6c5bcd3f292a721ff49b9f6",
       "mode": 420
     },
     {
       "path": "mimo-code/mimocode.jsonc",
-      "sha256": "99053b075f43ee896e548ab34a44996a9c1a8c10d97a8d4e708c997ca114409d",
+      "sha256": "3741a2306c0792f79fb9bdfc59b687089601171f155f6f1d5e460967d1337ef4",
       "mode": 420
     },
     {
@@ -1036,12 +1036,12 @@
     },
     {
       "path": "mistral-vibe/README.md",
-      "sha256": "49c7bf6a8e17b18fe01e98136d6e20d4dc673482788dd8e5b6663558d03658d6",
+      "sha256": "35d040b73097ae2d90bfd381cc2e5931b4833a96ef42487d54107dca1e245039",
       "mode": 420
     },
     {
       "path": "mistral-vibe/config/mcp_servers.toml",
-      "sha256": "df4afe99eee409674d436cb4ad2c4b0c1a21afa3877f83b70ddcd6abf790fce2",
+      "sha256": "fbc96d7dc649f5efa5adf0e733a56e1e70557be77c7e45d969ef0d0a12e11d70",
       "mode": 420
     },
     {
@@ -1076,12 +1076,12 @@
     },
     {
       "path": "oh-my-pi/README.md",
-      "sha256": "4908bc7a0f2b6474c803f24b02a39ff49684cb81bf0d4f236ceff947419fcfe3",
+      "sha256": "59191dd5ccd345f2670cb8d8753954c6fb32882298574295e7a2ba86be2e2803",
       "mode": 420
     },
     {
       "path": "oh-my-pi/mcp-stdio.json",
-      "sha256": "c0227ffdd03672f850b202f826e558ea3a72e638e2a7ebae0671293ba9ee5547",
+      "sha256": "d35aba5f82f4b342d0016279a719d17e86f8493d9984f81e41b2471fe534421f",
       "mode": 420
     },
     {
@@ -1131,12 +1131,12 @@
     },
     {
       "path": "openclaw/README.md",
-      "sha256": "6263d5215a9d50f4b87114595eb47df65ba91dc177446e48d496d7dda06077da",
+      "sha256": "8d7663d3d7bfb0d925f7747923973f4228e7a052507392c25c972752526ec4df",
       "mode": 420
     },
     {
       "path": "openclaw/SKILL.md",
-      "sha256": "2d81a7a7f0ead3953e5b19c01729eedc5f7212a9ffd26169c92aacff9ea55996",
+      "sha256": "d5286ccf1ae1233e030b26c47c938ca6c8375d4d742e4ae3670abc644c52a3bb",
       "mode": 420
     },
     {
@@ -1181,7 +1181,7 @@
     },
     {
       "path": "pi/README.md",
-      "sha256": "ded3affe7224a4b67324b821b42ffea72d1b124590dff26f6740759464e764c2",
+      "sha256": "c41dc167a9020df7490f7446e40a71baf1e102175d9192d0f78ff6f459e8ff72",
       "mode": 420
     },
     {
@@ -1191,7 +1191,7 @@
     },
     {
       "path": "plugin.json",
-      "sha256": "4fa113a7d091ab07d4929575fefc4214cefca94d4c96af1e2ee10e9131d928c3",
+      "sha256": "c5af92f4861c0a01ef20a16f3e01eef173080763612c0744453578b2580040f4",
       "mode": 420
     },
     {
@@ -1356,22 +1356,22 @@
     },
     {
       "path": "reviewer-pack/README.md",
-      "sha256": "58848668eddf8be68cbd5ef18c0d68d735492fb8bec0929cfc492d7d2a0a2226",
+      "sha256": "3b4f163f7dc62bff321b86052f2512adde2963ee5ee40c5906cf7eaf9a564afe",
       "mode": 420
     },
     {
       "path": "reviewer-pack/workflows.json",
-      "sha256": "3ee40e7aca0a63cbca00c136ce2eec52d2e3797fa41f67400df4251ab54f6025",
+      "sha256": "b6b1b050a924f18e4508c0bfa0432dee584a44acc3b33979161222a3f7356139",
       "mode": 420
     },
     {
       "path": "roo-code/README.md",
-      "sha256": "2755f4e6365a249fe3844daa29605b5cd1b7d4766af32f8dca7ef77b15a22998",
+      "sha256": "b3a3f7b37f15e54386313dabd0f74d9cfc0140a7560fcb632ea8b304a6a5a77c",
       "mode": 420
     },
     {
       "path": "roo-code/mcp.json",
-      "sha256": "96fed5c5d27ba8c8a4a442b88220487213a36a8f86e73b52b229c9f211aaa08b",
+      "sha256": "5baaadf8f15d7b275894c7b5bd2023ab66e751f1ee2637f38bb084b465a6997f",
       "mode": 420
     },
     {
@@ -1406,12 +1406,12 @@
     },
     {
       "path": "scripts/tests/verify-published-mcp.fixtures.mjs",
-      "sha256": "552bf686a9ef378e4fff7796a444b2b4081654ed2c52edb183bf72cbc7b0171f",
+      "sha256": "3c24ff89ced6e2105456f082e1b4343e5b9f141b713fda2aedc994ab9174f47c",
       "mode": 420
     },
     {
       "path": "scripts/validate.mjs",
-      "sha256": "98070f0ab075704eed1ebe65a41afcd36daa9656541935b648b2e9b6923b34fb",
+      "sha256": "7d7a46e90dcacfa25cdb9baada4999be9b52bb97179b0013f528fd39adcc7f84",
       "mode": 420
     },
     {
@@ -1501,17 +1501,17 @@
     },
     {
       "path": "zed-extension/Cargo.lock",
-      "sha256": "93e36424148ec5c49f22339892e2df9e5153e2e62622c0c467fad96c13dd042a",
+      "sha256": "fb30f6f46a6ac276063645545ce08978bace30e34e9e9b036eced83b897f29bb",
       "mode": 420
     },
     {
       "path": "zed-extension/Cargo.toml",
-      "sha256": "d9f574083601c930fa2ca239e5320da468a1db745026c32ba910f2404b4468d1",
+      "sha256": "4d26f3fd1b4242cd861e3dd01168508a86a53c4fb8c39ef05e4940690eec8ca8",
       "mode": 420
     },
     {
       "path": "zed-extension/README.md",
-      "sha256": "0c6c204ca65c9217e9702689451a30e639c2b16319b0e3aba66449ff071e7005",
+      "sha256": "496ed004cdb9d86223ae6ce9b0a6169c3b2811557d645a2c8330b6e8b244095d",
       "mode": 420
     },
     {
@@ -1521,12 +1521,12 @@
     },
     {
       "path": "zed-extension/configuration/installation_instructions.md",
-      "sha256": "7d81a0c20a40c1f689cf78ee96ea51d3c09c7ff1295ab7309cfd5760829f90a5",
+      "sha256": "ccde84572a33952bf52aea59da337f12dc9af077cd168028e75c0a5d94abe584",
       "mode": 420
     },
     {
       "path": "zed-extension/extension.toml",
-      "sha256": "df3928b5c89647daaf9c33aa547bc8c864b3853340ae39a11232d90dbb2ea8f2",
+      "sha256": "1fbfd5ed0f7639f625bc8fa96192e9702d93740da939ab6a2f937cb7e9da853e",
       "mode": 420
     },
     {
@@ -1541,7 +1541,7 @@
     },
     {
       "path": "zed-extension/src/lib.rs",
-      "sha256": "cd818a9fcf9b12cfd9d437104d04c20ec557aa5267aaeea238ddd37c00d8074d",
+      "sha256": "2273eb0416b0ba3de70706fcd1c37dff5fa111d7d988049bd025e03d4c8ce590",
       "mode": 420
     }
   ],
@@ -1603,10 +1603,10 @@
     ".github"
   ],
   "artifactVersions": {
-    "gemini": "0.1.32",
-    "zed": "0.1.32",
-    "codebuff": "0.1.32",
-    "openclaw": "0.1.32"
+    "gemini": "0.1.33",
+    "zed": "0.1.33",
+    "codebuff": "0.1.33",
+    "openclaw": "0.1.33"
   },
   "mutatingTools": [
     "lyrashield_scan_target",
